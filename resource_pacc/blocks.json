@@ -1,0 +1,61 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "glowstone": {
+    "isotropic": false
+  },
+  "leaves": {
+    "isotropic": false
+  },
+  "leaves2": {
+    "isotropic": false
+  },
+  "hardened_clay": {
+  "isotropic": false
+  },
+  "netherrack": {
+    "isotropic": false
+  },
+  "stained_hardened_clay": {
+  "isotropic": false
+  },
+  "sand": {
+    "isotropic": false
+  },
+  "magma": {
+    "isotropic": false
+  },
+  "red_sand": {
+    "isotropic": false
+  },
+  "snow": {
+    "isotropic": false
+  },
+  "powder_snow": { "isotropic": false },
+  "snow_layer": {
+    "blockshape": "top_snow",
+    "isotropic": false,
+    "textures": "snow",
+    "brightness_gamma": 0.45,
+    "sound": "snow"
+   },
+  "warped_nylium": {
+    "isotropic": false
+  },
+  "crimson_nylium": {
+    "isotropic": false
+  },
+  "fletching_table": {
+    "textures": {
+      "up": "fletching_table_top",
+      "down": "wood_oak",
+      "north": "fletching_table_side1",
+      "south": "fletching_table_side1",
+      "east": "fletching_table_side2",
+      "west": "fletching_table_side2"
+    }
+  }
+}

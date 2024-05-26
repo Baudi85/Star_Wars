@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fourj.player.lightsaber_dark_sound": {
+			"loop":true,
+			"sound_effects": {
+				"0.0": [
+					{
+						"effect": "lightsaber_dark"
+					}
+				]
+			}
+		},
+		"animation.fourj.player.lightsaber_blue_sound": {
+			"loop":true,
+			"sound_effects": {
+				"0.0": [
+					{
+						"effect": "lightsaber_blue"
+					}
+				]
+			}
+		},
+		"animation.fourj.player.lightsaber_green_sound": {
+			"loop":true,
+			"sound_effects": {
+				"0.0": [
+					{
+						"effect": "lightsaber_green"
+					}
+				]
+			}
+		},
+		"animation.fourj.player.lightsaber_red_sound": {
+			"loop":true,
+			"sound_effects": {
+				"0.0": [
+					{
+						"effect": "lightsaber_red"
+					}
+				]
+			}
+		},
+		"animation.fourj.player.lightsaber_purple_sound": {
+			"loop":true,
+			"sound_effects": {
+				"0.0": [
+					{
+						"effect": "lightsaber_purple"
+					}
+				]
+			}
+		}
+	}
+}

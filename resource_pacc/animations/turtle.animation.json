@@ -1,0 +1,55 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.turtle.general" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"position" : [ 0.0, "query.is_pregnant ? 1.0 : 0.0", 0.0 ],
+					"rotation" : [ "-this", 0.0, 0.0 ]
+				},
+				"eggbelly" : {
+					"position" : [ 0.0, -0.08, 0.0 ],
+					"rotation" : [ "-this", 0.0, 0.0 ],
+					"scale" : "query.is_pregnant ? 1.0 : 0.0"
+				}
+			}
+		},
+		"animation.turtle.ground_move" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"loop" : true,
+			"bones" : {
+				"leg0" : {
+					"rotation" : [ "-this", "math.clamp(math.cos(query.anim_time * variable.timemultiplier * variable.legspeedmultiplier * 20.0 + 60) * variable.backlegmultiplier * query.modified_move_speed * 10.0, -15.0, 15.0) - this", "-this" ]
+				},
+				"leg1" : {
+					"rotation" : [ "-this", "math.clamp(math.cos(query.anim_time * variable.timemultiplier * variable.legspeedmultiplier * 20.0) * variable.backlegmultiplier * query.modified_move_speed * 10.0, -15.0, 15.0) - this", "-this" ]
+				},
+				"leg2" : {
+					"rotation" : [ "30-this", "query.is_laying_egg ? math.cos(query.life_time * 500.0) * 50.0 : math.clamp(math.cos(query.anim_time * variable.timemultiplier * variable.legspeedmultiplier * 30.0) * variable.frontlegmultiplier * query.modified_move_speed * 5.0, -5.0, 5.0) - this", "-this" ]
+				},
+				"leg3" : {
+					"rotation" : [ "30-this", "query.is_laying_egg ? math.cos(query.life_time * 500.0) * 50.0 : math.clamp(math.cos(query.anim_time * variable.timemultiplier * variable.legspeedmultiplier * 30.0) * variable.frontlegmultiplier * query.modified_move_speed * 5.0, -5.0, 5.0) - this", "-this" ]
+				}
+			}
+		},
+		"animation.turtle.move" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"loop" : true,
+			"bones" : {
+				"leg0" : {
+					"rotation" : [ "math.clamp(math.cos(query.anim_time * 22.92) * query.modified_move_speed * 10.0, -15.0, 15.0) - this", "-this", "-this" ]
+				},
+				"leg1" : {
+					"rotation" : [ "math.clamp(math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 10.0, -15.0, 15.0) - this", "-this", "-this" ]
+				},
+				"leg2" : {
+					"rotation" : [ "30-this", "-this", "math.clamp(math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 5.0, -5.0, 5.0) - this" ]
+				},
+				"leg3" : {
+					"rotation" : [ "30-this", "-this", "math.clamp(math.cos(query.anim_time * 22.92) * query.modified_move_speed * 5.0, -5.0, 5.0) - this" ]
+				}
+			}
+		}
+	}
+}

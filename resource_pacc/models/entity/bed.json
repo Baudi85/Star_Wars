@@ -1,0 +1,90 @@
+{
+  "format_version": "1.10.0",
+  "geometry.bed": {
+    "bones": [
+      {
+        "cubes": [
+          {
+            "origin": [
+              0,
+              0,
+              1
+            ],
+            "size": [
+              16,
+              32,
+              8
+            ],
+            "uv": [
+              0,
+              0
+            ]
+          },
+          {
+            "origin": [
+              0,
+              23,
+              -1
+            ],
+            "size": [
+              16,
+              9,
+              2
+            ],
+            "uv": [
+              0,
+              40
+            ]
+          }
+        ],
+        "name": "bed",
+        "pivot": [
+          0,
+          24,
+          0
+        ]
+      },
+      {
+        "name": "leg1",
+        "pivot": [
+          5,
+          22,
+          0
+        ]
+      },
+      {
+        "name": "leg0",
+        "pivot": [
+          -5,
+          22,
+          0
+        ]
+      },
+      {
+        "name": "leg3",
+        "pivot": [
+          2,
+          12,
+          0
+        ]
+      },
+      {
+        "name": "leg2",
+        "pivot": [
+          -2,
+          12,
+          0
+        ]
+      }
+    ],
+    "textureheight": 64,
+    "texturewidth": 64,
+    "visible_bounds_height": 2,
+    "visible_bounds_offset": [
+      0,
+      1,
+      0
+    ],
+    "visible_bounds_width": 2
+  }
+}

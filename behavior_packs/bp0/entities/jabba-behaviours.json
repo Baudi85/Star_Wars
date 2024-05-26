@@ -1,0 +1,128 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:entity" : 
+	{
+		"component_groups" : 
+		{
+			"not_talking" : 
+			{
+				"minecraft:variant" : 
+				{
+					"value" : 0.0
+				}
+			},
+			"talking" : 
+			{
+				"minecraft:variant" : 
+				{
+					"value" : 1.0
+				}
+			}
+		},
+		"components" : 
+		{
+			"minecraft:collision_box" : 
+			{
+				"height" : 1.2000000477,
+				"width" : 0.8999999762
+			},
+			"minecraft:health" : 
+			{
+				"max" : 50,
+				"value" : 50
+			},
+			"minecraft:physics" : {},
+			"minecraft:pushable" : 
+			{
+				"is_pushable" : false
+			},
+			"minecraft:scale" : 
+			{
+				"value" : 1.6499999762
+			},
+			"minecraft:timer" : 
+			{
+				"looping" : true,
+				"random_time_choices" : 
+				[
+					{
+						"value" : 10,
+						"weight" : 50
+					},
+					{
+						"value" : 3,
+						"weight" : 50
+					}
+				],
+				"time_down_event" : 
+				{
+					"event" : "fourj:change_state"
+				}
+			}
+		},
+		"description" : 
+		{
+			"identifier" : "fourj:jabba",
+			"is_experimental" : false,
+			"is_spawnable" : true,
+			"is_summonable" : true,
+			"spawn_egg" : true
+		},
+		"events" : 
+		{
+			"fourj:change_state" : 
+			{
+				"randomize" : 
+				[
+					{
+						"trigger" : "no_change",
+						"weight" : 30
+					},
+					{
+						"trigger" : "set_not_talking",
+						"weight" : 45
+					},
+					{
+						"trigger" : "set_talking",
+						"weight" : 25
+					}
+				]
+			},
+			"no_change" : {},
+			"set_not_talking" : 
+			{
+				"add" : 
+				{
+					"component_groups" : 
+					[
+						"not_talking"
+					]
+				},
+				"remove" : 
+				{
+					"component_groups" : 
+					[
+						"talking"
+					]
+				}
+			},
+			"set_talking" : 
+			{
+				"add" : 
+				{
+					"component_groups" : 
+					[
+						"talking"
+					]
+				},
+				"remove" : 
+				{
+					"component_groups" : 
+					[
+						"not_talking"
+					]
+				}
+			}
+		}
+	}
+}

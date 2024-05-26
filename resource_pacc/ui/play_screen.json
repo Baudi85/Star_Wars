@@ -1,0 +1,12 @@
+{
+ "join_by_code_popup_help_text": {
+    "type": "label",
+    "size": [ "95%", "100%" ],
+    "shadow": false,
+    "text": "networkWold.joinByCodeHelpText",
+    "color": "$title_text_color",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "text_alignment": "center"
+  }
+}

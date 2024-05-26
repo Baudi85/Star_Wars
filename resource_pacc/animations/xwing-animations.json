@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fourj.xwing.move": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"wing1": {
+					"rotation": [0, 0, -25]
+				},
+				"wing2": {
+					"rotation": [0, 0, 25]
+				},
+				"wing3": {
+					"rotation": [0, 0, 25]
+				},
+				"wing4": {
+					"rotation": [0, 0, -25]
+				}
+			}
+		},
+		"animation.fourj.xwing.turn_left": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 45]
+				},
+				"wing1": {
+					"rotation": [0, 0, -25]
+				},
+				"wing2": {
+					"rotation": [0, 0, 25]
+				},
+				"wing3": {
+					"rotation": [0, 0, 25]
+				},
+				"wing4": {
+					"rotation": [0, 0, -25]
+				}
+			}
+		},
+		"animation.fourj.xwing.turn_right": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, -45]
+				},
+				"wing1": {
+					"rotation": [0, 0, -25]
+				},
+				"wing2": {
+					"rotation": [0, 0, 25]
+				},
+				"wing3": {
+					"rotation": [0, 0, 25]
+				},
+				"wing4": {
+					"rotation": [0, 0, -25]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.panda.baby_transform": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, 1.77, 0],
+					"scale": [1.15, 1.15, 1]
+				},
+				"head": {
+					"position": [0, -0.18, -0.6],
+					"scale": 1.5
+				}
+			}
+		},
+		"animation.panda.lying": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["0+(query.lie_amount * -90) - this", 0, 0],
+					"position": [0, "10+(query.is_baby ? -8.8 : -7.67) * query.lie_amount -25 - this", 0]
+				},
+				"head": {
+					"rotation": ["0+(query.lie_amount * 0) - this", 0, 0]
+				},
+				"leg0": {
+					"rotation": [0, 0, "20+math.sin(query.life_time * 172) * 17.2 - this"]
+					},
+				"leg1": {
+					"rotation": [0, 0, "-20+math.sin(query.life_time * 172) * 17.2 - this"]
+					},
+				"leg2": {
+					"rotation": [0, 0, "20+math.sin(query.life_time * 172) * 17.2 - this"]
+				},
+				"leg3": {
+					"rotation": [0, 0, "-20+math.sin(query.life_time * 172) * 17.2 - this"]
+				}
+			}
+		},
+		"animation.panda.rolling": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["(query.roll_counter / 22) * 360", 0, 0]
+				},
+				"head": {
+					"rotation": ["30+(this * -118) + query.roll_counter - this", 0, 0]
+				},
+				"leg0": {
+					"rotation": ["-60+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * 8.6 - this", "20+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * -8.6 - this", 0]
+				},
+				"leg1": {
+					"rotation": ["-60+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * -8.6 - this", "-20+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * -8.6 - this", 0]
+				},
+				"leg2": {
+					"rotation": ["-70+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * -8.6 - this", "-10+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * -8.6 - this", 0]
+				},
+				"leg3": {
+					"rotation": ["-70+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * 8.6 - this", "10+math.sin(query.life_time * 60 * (query.is_baby ? 0.95 : 0.5) * 57.3) * -8.6 - this", 0]
+				}
+			}
+		},
+		"animation.panda.sitting": {
+			"loop": true,
+			"animation_length": 1.4,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"head": {
+					"rotation": ["-10+(this * -5) + query.is_eating - this", 0, 0]
+				},
+				"leg0": {
+					"rotation": [0, 0, 0]
+				},
+				"leg1": {
+					"rotation": [0, 0, 0]
+				},
+				"leg2" : {
+					"rotation" : [ "-120+(query.is_eating ? (-20 - (16.5 * math.sin(query.life_time * 750))) : 0) - this", "-30", "-15" ]
+				},
+				"leg3" : {
+					"rotation" : [ "-120+(query.is_eating ? (-20 - (16.5 * math.sin(query.life_time * 750))) : 0) - this", "30", "15" ]
+				}
+			}
+		},
+		"animation.panda.sneezing": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["(query.sneeze_counter < 15) ? (0 * (query.sneeze_counter / 14)) : (0 + (0 * (query.sneeze_counter - 15)) - this)", 0, 0]
+				}
+			}
+		},
+		"animation.panda.unhappy": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [0, "(math.sin(query.life_time * 327.6) * 20) - this", "(math.sin(query.life_time * 327.6) * 20) - this"]
+				},
+				"leg2": {
+					"rotation": ["(math.sin(query.life_time * 343.8) * -43) - this", 0, 0]
+				},
+				"leg3": {
+					"rotation": ["(math.sin(query.life_time * 343.8) * 43) - this", 0, 0]
+				}
+			}
+		}
+	}
+}

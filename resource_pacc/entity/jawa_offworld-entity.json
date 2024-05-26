@@ -1,0 +1,41 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"Move" : "controller.animation.fourj.jawa.Move"
+				}
+			],
+			"animations" : 
+			{
+				"Move" : "animation.fourj.jawa.Move"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.jawa"
+			},
+			"identifier" : "fourj:jawa_offworld",
+			"materials" : 
+			{
+				"default" : "entity_alphatest"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:jawa"
+			],
+			"spawn_egg" : 
+			{
+				"base_color" : "#24232a",
+				"overlay_color" : "#1e1c22"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/jawa_offworld"
+			}
+		}
+	}
+}

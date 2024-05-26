@@ -1,0 +1,8 @@
+{
+"buy_now_toggle@realmsPlus.toggle_base": {
+  "$default_texture": "textures/ui/pink_button_borderless_default",
+  "$hover_texture": "textures/ui/pink_button_borderless_hover",
+  "$pressed_texture": "textures/ui/pink_button_borderless_hover_pressed",
+  "$pressed_no_hover_texture": "textures/ui/pink_button_borderless_no_hover_pressed"
+}
+}

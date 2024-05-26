@@ -1,0 +1,35 @@
+{
+	"animation_controllers": {
+		"controller.animation.fourj.lava_boat.default": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"setup": []
+						},
+						{
+							"idle": [
+								{
+									"0.0": 1.0,
+									"1.0": 0.0
+								}
+							]
+						},
+						{
+							"move": [
+								{
+									"0.0": 0.0,
+									"1.0": 1.0
+								}
+							]
+						}
+					],
+					"parameters": [
+						"query.modified_move_speed"
+					]
+				}
+			}
+		}
+	},
+	"format_version": "1.8.0"
+}

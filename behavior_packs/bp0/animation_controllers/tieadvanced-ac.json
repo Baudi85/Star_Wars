@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.fourj.tieadvanced_handle_rider": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "has_rider": "query.has_rider"
+                        }
+                    ]
+                },
+                "has_rider": {
+                    "on_entry": [
+                        "/tag @s add has_pilot",
+                        "/execute @s ~ ~ ~ playsound fourj:entity.tiefighter_fly_takeoff @a[r=8] ^ ^ ^ 1 1 1"
+                    ],
+                    "on_exit": [
+                        "/tag @s remove has_pilot",
+                        "/execute @s ~ ~ ~ playsound fourj:entity.tiefighter_fly_end @a[r=8] ^ ^ ^ 1 1 1"
+                    ],
+                    "animations" : [
+                        "play_engine_loop"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.has_rider"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

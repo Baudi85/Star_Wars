@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "animations": {
+        "lightsaber_dark_attack_sound_controller": "controller.animation.player.lightsaber_dark_attack_sound",
+        "lightsaber_dark_sound":"animation.fourj.player.lightsaber_dark_sound",
+        "lightsaber_blue_attack_sound_controller": "controller.animation.player.lightsaber_blue_attack_sound",
+        "lightsaber_blue_sound":"animation.fourj.player.lightsaber_blue_sound",
+        "lightsaber_green_attack_sound_controller": "controller.animation.player.lightsaber_green_attack_sound",
+        "lightsaber_green_sound":"animation.fourj.player.lightsaber_green_sound",
+        "lightsaber_red_attack_sound_controller": "controller.animation.player.lightsaber_red_attack_sound",
+        "lightsaber_red_sound":"animation.fourj.player.lightsaber_red_sound",
+        "lightsaber_purple_attack_sound_controller": "controller.animation.player.lightsaber_purple_attack_sound",
+        "lightsaber_purple_sound":"animation.fourj.player.lightsaber_purple_sound"
+      },
+      "sound_effects": {
+        "lightsaber_blue": "fourj:world.lightsaber_swing",
+        "lightsaber_green": "fourj:world.lightsaber_green_swing",
+        "lightsaber_red": "fourj:world.lightsaber_red_swing",
+        "lightsaber_purple": "fourj:world.lightsaber_swing",
+        "lightsaber_dark": "fourj:world.lightsaber_dark_swing"
+      }
+    }
+  }
+}

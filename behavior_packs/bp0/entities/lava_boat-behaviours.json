@@ -1,0 +1,167 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:entity" : 
+	{
+		"component_groups" : {
+			"fourj:movementcomponent":
+			{
+				
+			"minecraft:follow_range" : 
+			{
+				"max" : 48,
+				"value" : 48
+			},
+			"minecraft:behavior.melee_attack" : 
+			{
+				"max_dist" : 3,
+				"priority" : 3,
+				"track_target" : true
+			},
+			"minecraft:behavior.nearest_attackable_target" : 
+			{
+				"entity_types" : 
+				[
+					{
+						"filters" : 
+						{
+							"subject" : "other",
+							"test" : "is_family",
+							"value" : "waypoint"
+						},
+						"max_dist" : 48
+					}
+				],
+				"must_see" : false,
+				"priority" : 2
+			}
+			}
+		},
+		"components" : 
+		{
+			
+			"minecraft:fall_damage" : 
+			{
+				"value" : 0.0
+			},
+			"minecraft:lava_movement": {
+			  "value": 0.32
+			},
+			"minecraft:movement" : 
+			{
+				"value" : 1.8
+			},
+			"minecraft:movement.glide" : 
+			{
+				"speed_when_turning" : 0.5,
+				"start_speed" : 0.5
+			},
+			"minecraft:ambient_sound_interval" : 
+			{
+				"range" : 1,
+				"value" : 4
+			},
+			"minecraft:attack" : 
+			{
+				"damage" : 0
+			},
+			"minecraft:behavior.rise_to_liquid_level": {
+			  "priority": 0,
+			  "liquid_y_offset": 0.25,
+			  "rise_delta": 0.01,
+			  "sink_delta": 0.01
+			},
+			"minecraft:navigation.float": {
+			  "can_path_over_lava": true,
+			  "avoid_water": true,
+			  "can_sink": false,
+			  "can_walk_in_lava": true
+			},
+			"minecraft:collision_box" : 
+			{
+				"height" : 1.2,
+				"width" : 1.8
+			},
+			"minecraft:damage_sensor" : 
+			[
+				{
+					"deals_damage" : false,
+					"on_damage" : {}
+				}
+			],
+			"minecraft:jump.static": {
+			},
+			"minecraft:fire_immune" : {},
+			"minecraft:physics" : 
+			{
+				"has_gravity" : false
+			},
+			"minecraft:rideable" : 
+			{
+				"interact_text" : "action.interact.ride.boat",
+				"pull_in_entities" : false,
+				"seat_count" : 1,
+				"seats" : 
+				[
+					{
+						"max_rider_count" : 1,
+						"min_rider_count" : 0,
+						"position" : 
+						[
+							0.2,
+							0.8,
+							0.5
+						]
+					}
+				]
+			},
+			"minecraft:timer" : 
+			{
+				"looping" : false,
+				"time" : 1,
+				"time_down_event" : 
+				{
+					"event" : "fourj:add_movement"
+				}
+			},
+			"minecraft:type_family" : 
+			{
+				"family" : 
+				[
+					"vehicle"
+				]
+			}
+		},
+		"description" : 
+		{
+			"animations" : 
+			{
+				"handle_rider" : "controller.animation.fourj.lavaboat_handle_rider"
+			},
+			"identifier" : "fourj:lava_boat",
+			"is_experimental" : false,
+			"is_spawnable" : false,
+			"is_summonable" : true,
+			"runtime_identifier" : "minecraft:bat",
+			"scripts" : 
+			{
+				"animate" : 
+				[
+					"handle_rider"
+				]
+			},
+			"spawn_egg" : false
+		},
+		"events" : {
+			"fourj:add_movement" : 
+			{
+				"add" : 
+				{
+					"component_groups" : 
+					[
+						"fourj:movementcomponent"
+					]
+				}
+			}
+		}
+	}
+}

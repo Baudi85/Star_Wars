@@ -1,0 +1,254 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fourj.child.move": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						1,
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.fourj.child.idle": {
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"1.0": [
+							0,
+							-0.2,
+							0
+						],
+						"2.0": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		},
+		"animation.fourj.child.closing": {
+			"animation_length": 0.08,
+			"bones": {
+				"earleft": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							60
+						]
+					}
+				},
+				"earright": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							-60
+						]
+					}
+				},
+				"doorleft": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							-90
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							1.6,
+							0,
+							-0.1
+						]
+					}
+				},
+				"doorright": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							90
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							-1.5,
+							0,
+							-0.1
+						]
+					}
+				}
+			}
+		},
+		"animation.fourj.child.closed": {
+			"loop": true,
+			"bones": {
+				"earleft": {
+					"rotation": [
+						0,
+						0,
+						60
+					]
+				},
+				"earright": {
+					"rotation": [
+						0,
+						0,
+						-60
+					]
+				},
+				"doorleft": {
+					"rotation": [
+						0,
+						0,
+						-90
+					],
+					"position": [
+						1.6,
+						0,
+						-0.1
+					]
+				},
+				"doorright": {
+					"rotation": [
+						0,
+						0,
+						90
+					],
+					"position": [
+						-1.5,
+						0,
+						-0.1
+					]
+				}
+			}
+		},
+		"animation.fourj.child.opening": {
+			"animation_length": 0.08,
+			"bones": {
+				"earleft": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							60
+						],
+						"0.0833": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"earright": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							-60
+						],
+						"0.0833": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"doorleft": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							-90
+						],
+						"0.0833": [
+							0,
+							0,
+							0
+						]
+					},
+					"position": {
+						"0.0": [
+							1.6,
+							0,
+							-0.1
+						],
+						"0.0833": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"doorright": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							90
+						],
+						"0.0833": [
+							0,
+							0,
+							0
+						]
+					},
+					"position": {
+						"0.0": [
+							-1.5,
+							0,
+							-0.1
+						],
+						"0.0833": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		}
+	}
+}

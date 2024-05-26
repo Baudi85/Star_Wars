@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.fourj.lavaboat_handle_rider": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "has_rider": "query.has_rider"
+                        }
+                    ]
+                },
+                "has_rider": {
+                    "on_entry": [
+                        "/tag @s add autoboat",
+                        "/function Misc/NevarroLavaBoat/Waypoints/WaypointStart"
+                    ],
+                    "on_exit": [
+                        "/tag @s remove autoboat",
+                        "/function Misc/NevarroLavaBoat/Cleanup"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.has_rider"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

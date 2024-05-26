@@ -1,0 +1,5 @@
+setblock 281 31 33 air
+setblock -534 62 140 redstone_torch
+clone 284 37 40 286 37 41 -535 63 134
+clone 286 36 37 286 36 37 -534 60 132
+clone 284 36 36 284 36 36 -534 61 132

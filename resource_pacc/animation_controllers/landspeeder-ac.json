@@ -1,0 +1,62 @@
+{
+    "format_version": "1.8.0",
+    "animation_controllers" : {
+        "controller.animation.fourj.landspeeder.move" : 
+		{
+			"states" : 
+			{
+				"default" : 
+				{
+                    "parameters": [ "variable.is_moving" ],
+					"animations" : 
+					[
+						{
+							"move" : [
+                                {
+                                    "0.0": 0.0,
+                                    "1.0": 1.0
+                                }
+                            ]
+						}
+					]
+				}
+			}
+		},
+        "controller.animation.fourj.landspeeder.turn_left": {
+            "states": {
+                "default": {
+                    "parameters": ["variable.negative_yaw"],
+                    "animations": 
+                    [
+                        {
+                            "turn_left": [
+                                {
+                                    "0.0": 0.0,
+                                    "90.0" : 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.fourj.landspeeder.turn_right": {
+            "states": {
+                "default": {
+                    "parameters": ["query.yaw_speed"],
+                    "animations": 
+                    [
+                        {
+                            "turn_right": [
+                                {
+                                    "0.0": 0.0,
+                                    "90.0" : 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

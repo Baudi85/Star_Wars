@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fourj.lava_boat.setup": {
+			"loop": true,
+			"bones": {
+				"Boat": {
+					"position": [0, 6.5, 0]
+				},
+				"ArmLeft": {
+					"position": [0, 6.5, 0]
+				},
+				"ArmRight": {
+					"position": [0, 6.5, 0]
+				}
+			}
+		},
+		"animation.fourj.lava_boat.idle": {
+			"animation_length": 1.6,
+			"bones": {
+				"Boat": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7167": [0, -0.2, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"ArmLeft": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7167": [0, -0.2, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"ArmRight": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7167": [0, -0.2, 0],
+						"1.6": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.fourj.lava_boat.move": {
+			"loop": true,
+			"animation_length": 2.08,
+			"bones": {
+				"ArmLeft": {
+					"rotation": {
+						"0.0": [-25, 10, 0],
+						"0.7667": [10, -15, 0],
+						"1.4": [-11.97, -32.88, 0],
+						"2.0833": [-25, 10, 0]
+					}
+				},
+				"ForearmLeft": {
+					"rotation": {
+						"0.0": [25, 0, 0],
+						"2.0833": [25, 0, 0]
+					}
+				},
+				"ArmRight": {
+					"rotation": {
+						"0.0": [-10, 15, 0],
+						"0.7667": [15, 5, 0],
+						"1.4": [2.5, 10, -15],
+						"2.0833": [-10, 15, 0]
+					}
+				}
+			}
+		}
+	}
+}

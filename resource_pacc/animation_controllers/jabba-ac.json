@@ -1,0 +1,56 @@
+{
+	"animation_controllers": {
+		"controller.animation.fourj.jabba.look_at_target": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"look_at_target": []
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.fourj.jabba.default": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": []
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.fourj.jabba.idle": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"idle": []
+						}
+					],
+					"transitions": [
+						{
+							"talk": "query.variant == 1.0"
+						}
+					]
+				},
+				"talk": {
+					"animations": [
+						{
+							"talk" : []
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.variant == 0.0"
+						}
+					]
+				}
+			}
+		}
+	},
+	"format_version": "1.8.0"
+}

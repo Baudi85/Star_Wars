@@ -1,0 +1,58 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"move" : "controller.animation.fourj.xwing.move"
+				},
+				{
+					"turn_left" : "controller.animation.fourj.xwing.turn_left"
+				},
+				{
+					"turn_right" : "controller.animation.fourj.xwing.turn_right"
+				}
+			],
+			"animations" : 
+			{
+				"move" : "animation.fourj.xwing.move",
+				"turn_left" : "animation.fourj.xwing.turn_left",
+				"turn_right" : "animation.fourj.xwing.turn_right"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.xwing"
+			},
+			"identifier" : "fourj:xwing",
+			"materials" : 
+			{
+				"default" : "entity_alphatest",
+				"lights" : "entity_emissive_alpha"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:xwing"
+			],
+			"scripts" : 
+			{
+				"pre_animation" : 
+				[
+					"variable.negative_yaw = query.yaw_speed * -1.0;",
+					"variable.is_moving = query.ground_speed > 0 ? 1 : 0;"
+				]
+			},
+			"spawn_egg" : 
+			{
+				"base_color" : "#b0a1a1",
+				"overlay_color" : "#c11f40"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/xwing"
+			}
+		}
+	}
+}

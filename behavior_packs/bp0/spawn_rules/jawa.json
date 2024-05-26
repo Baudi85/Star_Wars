@@ -1,0 +1,10 @@
+{
+	"minecraft:spawn_rules" : 
+	{
+		"description" : 
+		{
+			"identifier" : "fourj:jawa",
+			"population_control" : "animal"
+		}
+	}
+}

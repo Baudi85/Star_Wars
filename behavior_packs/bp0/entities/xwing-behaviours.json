@@ -1,0 +1,141 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:entity" : 
+	{
+		"component_groups" : 
+		{
+			"fourj:movementcomponent" : 
+			{
+				"minecraft:damage_sensor" : 
+				{
+					"triggers" : 
+					{
+						"cause" : "fall",
+						"deals_damage" : false
+					}
+				},
+				"minecraft:movement" : 
+				{
+					"value" : 0.85
+				},
+				"minecraft:movement.generic" : {}
+			},
+			"fourj:xwing" : 
+			{
+				"minecraft:variant" : 
+				{
+					"value" : 0
+				}
+			}
+		},
+		"components" : 
+		{
+			"minecraft:behavior.controlled_by_player" : {},
+			"minecraft:behavior.player_ride_tamed" : {},
+			"minecraft:collision_box" : 
+			{
+				"height" : 1.7999999523,
+				"width" : 2.9000000954
+			},
+			"minecraft:damage_sensor" : 
+			[
+				{
+					"deals_damage" : false,
+					"on_damage" : {}
+				}
+			],
+			"minecraft:input_ground_controlled" : {},
+			"minecraft:is_tamed" : {},
+			"minecraft:physics" : {},
+			"minecraft:pushable" : 
+			{
+				"is_pushable" : false
+			},
+			"minecraft:rideable" : 
+			{
+				"family_types" : 
+				[
+					"player"
+				],
+				"interact_text" : "action.interact.fourj.drive",
+				"priority" : 0,
+				"seat_count" : 1,
+				"seats" : 
+				[
+					{
+						"max_rider_count" : 1,
+						"min_rider_count" : 0,
+						"position" : 
+						[
+							0.0,
+							0.5,
+							-0.55
+						]
+					}
+				]
+			},
+			"minecraft:scale" : 
+			{
+				"value" : 0.8500000238
+			},
+			"minecraft:timer" : 
+			{
+				"looping" : false,
+				"time" : 0,
+				"time_down_event" : 
+				{
+					"event" : "fourj:add_movement"
+				}
+			}
+		},
+		"description" : 
+		{
+			"animations" : 
+			{
+				"handle_rider" : "controller.animation.fourj.xwing_handle_rider",
+				"play_engine_loop" : "animation.fourj.xwing.play_engine_loop"
+			},
+			"identifier" : "fourj:xwing",
+			"is_experimental" : false,
+			"is_spawnable" : true,
+			"is_summonable" : true,
+			"scripts" : 
+			{
+				"animate" : 
+				[
+					"handle_rider"
+				]
+			},
+			"spawn_egg" : true
+		},
+		"events" : 
+		{
+			"fourj:add_movement" : 
+			{
+				"add" : 
+				{
+					"component_groups" : 
+					[
+						"fourj:movementcomponent"
+					]
+				}
+			},
+			"minecraft:entity_spawned" : 
+			{
+				"randomize" : 
+				[
+					{
+						"add" : 
+						{
+							"component_groups" : 
+							[
+								"fourj:xwing"
+							]
+						},
+						"weight" : 1
+					}
+				]
+			}
+		}
+	}
+}

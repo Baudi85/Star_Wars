@@ -1,0 +1,58 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"move" : "controller.animation.fourj.tie_advanced.move"
+				},
+				{
+					"turn_left" : "controller.animation.fourj.tie_advanced.turn_left"
+				},
+				{
+					"turn_right" : "controller.animation.fourj.tie_advanced.turn_right"
+				}
+			],
+			"animations" : 
+			{
+				"move" : "animation.fourj.tie_advanced.move",
+				"turn_left" : "animation.fourj.tie_advanced.turn_left",
+				"turn_right" : "animation.fourj.tie_advanced.turn_right"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.tie_advanced"
+			},
+			"identifier" : "fourj:tie_advanced",
+			"materials" : 
+			{
+				"default" : "entity_alphatest",
+				"lights" : "entity_emissive_alpha"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:tie_advanced"
+			],
+			"scripts" : 
+			{
+				"pre_animation" : 
+				[
+					"variable.negative_yaw = query.yaw_speed * -1.0;",
+					"variable.is_moving = query.ground_speed > 0 ? 1 : 0;"
+				]
+			},
+			"spawn_egg" : 
+			{
+				"base_color" : "#686f8e",
+				"overlay_color" : "#1a1a1a"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/tie_advanced"
+			}
+		}
+	}
+}

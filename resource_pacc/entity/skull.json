@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:skull",
+    "textures": {
+      "default": "textures/entity/steve",
+      "steve": "textures/entity/steve",
+      "skeleton": "textures/entity/skeleton/skeleton",
+      "wither": "textures/entity/skeleton/wither_skeleton",
+      "zombie": "textures/entity/zombie/zombie",
+      "creeper": "textures/entity/creeper/creeper",
+      "dragon": "textures/entity/dragon/dragon"
+    },
+    "geometry": {
+      "default": "geometry.player_head",
+      "steve": "geometry.player_head",
+      "skeleton": "geometry.skeleton.head",
+      "wither": "geometry.skeleton.wither.head",
+      "zombie": "geometry.zombie.head",
+      "creeper": "geometry.creeper.head",
+      "dragon": "geometry.dragon.head"
+    }
+  }
+}
+}

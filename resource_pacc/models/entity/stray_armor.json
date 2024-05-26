@@ -1,0 +1,121 @@
+{
+  "format_version": "1.8.0",
+  "geometry.stray.armor.v1.8": {
+    "bones": [
+      {
+        "name": "waist",
+        "pivot": [
+          0,
+          12,
+          0
+        ]
+      },
+      {
+        "cubes": [],
+        "name": "body",
+        "parent": "waist",
+        "pivot": [
+          0,
+          24,
+          0
+        ]
+      },
+      {
+        "cubes": [],
+        "locators": {
+          "lead": [
+            0,
+            24,
+            0
+          ]
+        },
+        "name": "head",
+        "parent": "body",
+        "pivot": [
+          0,
+          24,
+          0
+        ]
+      },
+      {
+        "cubes": [],
+        "name": "hat",
+        "parent": "head",
+        "pivot": [
+          0,
+          24,
+          0
+        ]
+      },
+      {
+        "cubes": [],
+        "name": "rightArm",
+        "parent": "body",
+        "pivot": [
+          -5,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "rightItem",
+        "parent": "rightArm",
+        "pivot": [
+          -6,
+          10,
+          1
+        ]
+      },
+      {
+        "cubes": [],
+        "mirror": true,
+        "name": "leftArm",
+        "parent": "body",
+        "pivot": [
+          5,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "leftItem",
+        "parent": "leftArm",
+        "pivot": [
+          6,
+          10,
+          1
+        ]
+      },
+      {
+        "cubes": [],
+        "mirror": true,
+        "name": "leftLeg",
+        "parent": "body",
+        "pivot": [
+          0,
+          19,
+          5
+        ]
+      },
+      {
+        "cubes": [],
+        "name": "rightLeg",
+        "parent": "body",
+        "pivot": [
+          0,
+          19,
+          -4
+        ]
+      }
+    ],
+    "textureheight": 64,
+    "texturewidth": 64,
+    "visible_bounds_height": 4,
+    "visible_bounds_offset": [
+      0,
+      0,
+      0
+    ],
+    "visible_bounds_width": 3
+  }
+}

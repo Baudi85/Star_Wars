@@ -1,0 +1,49 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"look_at_target" : "controller.animation.fourj.jabba.look_at_target"
+				},
+				{
+					"default" : "controller.animation.fourj.jabba.default"
+				},
+				{
+					"idle" : "controller.animation.fourj.jabba.idle"
+				}
+			],
+			"animations" : 
+			{
+				"idle" : "animation.fourj.jabba.idle",
+				"look_at_target" : "animation.fourj.jabba.look_at_target",
+				"talk" : "animation.fourj.jabba.mouth"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.jabba"
+			},
+			"identifier" : "fourj:jabba",
+			"materials" : 
+			{
+				"default" : "entity_alphatest"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:jabba"
+			],
+			"spawn_egg" : 
+			{
+				"base_color" : "#425742",
+				"overlay_color" : "#9b7446"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/jabba"
+			}
+		}
+	}
+}

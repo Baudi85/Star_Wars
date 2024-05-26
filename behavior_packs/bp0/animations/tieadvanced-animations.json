@@ -1,0 +1,12 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.fourj.tieadvanced.play_engine_loop": {
+			"animation_length": 2.310,
+			"loop": true,
+			"timeline": {
+			  "0.0": "/execute @s ~ ~ ~ playsound fourj:entity.tiefighter_fly_loop @a[r=8] ^ ^ ^ 1 1 1"
+			}
+		  }
+	}
+}

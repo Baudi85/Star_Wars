@@ -1,0 +1,45 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{"default" : "controller.animation.fourj.child.default"	},
+				{"sit" : "controller.animation.fourj.child.sitting"	},
+				{"tame" : "controller.animation.fourj.child.taming"	}
+			],
+			"animations" : 
+			{
+				"child_idle" : "animation.fourj.child.idle",
+				"child_move" : "animation.fourj.child.move",
+				"child_closing": "animation.fourj.child.closing",
+				"child_closed": "animation.fourj.child.closed",
+				"child_opening": "animation.fourj.child.opening"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.child"
+			},
+			"identifier" : "fourj:child",
+			"materials" : 
+			{
+				"default" : "entity_alphatest"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:child"
+			],
+			"spawn_egg" : 
+			{
+				"base_color" : "#000000",
+				"overlay_color" : "#FFFFFF"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/child"
+			}
+		}
+	}
+}

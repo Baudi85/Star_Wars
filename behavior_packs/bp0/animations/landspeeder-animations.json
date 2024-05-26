@@ -1,0 +1,12 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.fourj.landspeeder.play_engine_loop": {
+			"animation_length": 2.039,
+			"loop": true,
+			"timeline": {
+			  "0.0": "/execute @s ~ ~ ~ playsound fourj:entity.landspeeder_fly_loop @a[r=8] ^ ^ ^ 1 1 1"
+			}
+		  }
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"animation_controllers" : 
+	{
+		"controller.animation.fourj.gnk.default" : 
+		{
+			"states" : 
+			{
+				"default" : 
+				{
+					"animations" : 
+					[
+						{
+							"idle" : 
+							[
+								{
+									"0.0" : 0.0,
+									"1.0" : 1.0
+								}
+							]
+						},
+						{
+							"move" : 
+							[
+								{
+									"0.0" : 0.0,
+									"1.0" : 1.0
+								}
+							]
+						}
+					],
+					"parameters" : 
+					[
+						"query.modified_move_speed"
+					]
+				}
+			}
+		}
+	},
+	"format_version" : "1.8.0"
+}

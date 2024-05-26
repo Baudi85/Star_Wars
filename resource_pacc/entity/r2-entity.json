@@ -1,0 +1,50 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"look_at_target" : "controller.animation.fourj.r2.look_at_target"
+				},
+				{
+					"Move" : "controller.animation.fourj.r2.Move"
+				},
+				{
+					"idle" : "controller.animation.fourj.r2.idle"
+				}
+			],
+			"animations" : 
+			{
+				"Move" : "animation.fourj.r2.Move",
+				"idle" : "animation.fourj.r2.idle",
+				"look_at_target" : "animation.fourj.r2.look_at_target",
+				"shake" : "animation.fourj.r2.shake"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.r2"
+			},
+			"identifier" : "fourj:r2",
+			"materials" : 
+			{
+				"default" : "entity_alphatest"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:r2"
+			],
+			"spawn_egg" : 
+			{
+				"base_color" : "#f3eded",
+				"overlay_color" : "#2e7cff"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/r2"
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:entity" : 
+	{
+		"component_groups" : {},
+		"components" : 
+		{
+			"minecraft:damage_sensor": [
+			  {
+				"deals_damage": false,
+				"on_damage": {}
+			  }
+			],
+			"minecraft:fall_damage": {
+			  "value": 0.0
+			},
+			"minecraft:physics": {
+			  "has_gravity": false
+			},
+			"minecraft:type_family": {
+			  "family": [
+				"waypoint"
+			  ]
+			}
+		},
+		"description" : 
+		{
+			"identifier" : "fourj:invisible_waypoint",
+			"is_experimental": false,
+			"is_spawnable": false,
+			"is_summonable": true,
+			"runtime_identifier": "minecraft:bat",
+			"spawn_egg": false
+		},
+		"events" : {}
+	}
+}

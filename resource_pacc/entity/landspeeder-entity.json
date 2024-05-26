@@ -1,0 +1,58 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"move" : "controller.animation.fourj.landspeeder.move"
+				},
+				{
+					"turn_left" : "controller.animation.fourj.landspeeder.turn_left"
+				},
+				{
+					"turn_right" : "controller.animation.fourj.landspeeder.turn_right"
+				}
+			],
+			"animations" : 
+			{
+				"move" : "animation.fourj.landspeeder.move",
+				"turn_left" : "animation.fourj.landspeeder.turn_left",
+				"turn_right" : "animation.fourj.landspeeder.turn_right"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.landspeeder"
+			},
+			"identifier" : "fourj:landspeeder",
+			"materials" : 
+			{
+				"default" : "entity_alphatest",
+				"lights" : "entity_emissive_alpha"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:landspeeder"
+			],
+			"scripts" : 
+			{
+				"pre_animation" : 
+				[
+					"variable.negative_yaw = query.yaw_speed * -1.0;",
+					"variable.is_moving = query.ground_speed > 0 ? 1 : 0;"
+				]
+			},
+			"spawn_egg" : 
+			{
+				"base_color" : "#cb785e",
+				"overlay_color" : "#535347"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/landspeeder"
+			}
+		}
+	}
+}

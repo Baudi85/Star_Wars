@@ -1,0 +1,10 @@
+{
+	"minecraft:spawn_rules" : 
+	{
+		"description" : 
+		{
+			"identifier" : "fourj:r2",
+			"population_control" : "animal"
+		}
+	}
+}

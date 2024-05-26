@@ -1,0 +1,66 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:entity" : 
+	{
+		"component_groups" : {},
+		"components" : 
+		{
+			"minecraft:behavior.look_at_player" : 
+			{
+				"look_distance" : 6.0,
+				"priority" : 3,
+				"probability" : 0.02
+			},
+			"minecraft:behavior.panic" : 
+			{
+				"priority" : 1,
+				"speed_multiplier" : 1.25
+			},
+			"minecraft:behavior.random_look_around" : 
+			{
+				"priority" : 4
+			},
+			"minecraft:behavior.random_stroll" : 
+			{
+				"priority" : 2,
+				"speed_multiplier" : 1.0
+			},
+			"minecraft:collision_box" : 
+			{
+				"height" : 1.8,
+				"width" : 0.8
+			},
+			"minecraft:health" : 
+			{
+				"max" : 5,
+				"value" : 5
+			},
+			"minecraft:jump.static" : {},
+			"minecraft:movement" : 
+			{
+				"value" : 0.25
+			},
+			"minecraft:movement.basic" : {},
+			"minecraft:navigation.walk" : 
+			{
+				"avoid_damage_blocks" : true,
+				"avoid_water" : true,
+				"can_path_over_water" : false
+			},
+			"minecraft:physics" : {},
+			"minecraft:scale" : 
+			{
+				"value" : 0.9350000024
+			}
+		},
+		"description" : 
+		{
+			"identifier" : "fourj:jawa",
+			"is_experimental" : false,
+			"is_spawnable" : true,
+			"is_summonable" : true,
+			"spawn_egg" : true
+		},
+		"events" : {}
+	}
+}

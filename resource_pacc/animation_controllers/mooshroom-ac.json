@@ -1,0 +1,20 @@
+{
+	"format_version" : "1.8.0",
+	"animation_controllers" : 
+	{
+		"controller.animation.mooshroom.scale" : 
+		{
+			"states" : 
+			{
+				"default" : 
+				{
+					"animations": [
+						{
+							"scalefix": []
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,3114 @@
+{
+	"crossbow.loading.end" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"crossbow.loading.middle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"crossbow.loading.start" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"crossbow.quick_charge.end" : 
+	{
+		"sounds" : 
+		[
+			{
+				"load_on_low_memory" : true,
+				"name" : "sounds/crossbow/quick_charge/quick1_3"
+			},
+			"sounds/crossbow/quick_charge/quick2_3",
+			"sounds/crossbow/quick_charge/quick3_3",
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"crossbow.quick_charge.middle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"crossbow.quick_charge.start" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"crossbow.shoot" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Bowcaster/Crossbow_Bowcaster_Fire_01",
+				"volume" : 2.5
+			},
+			{
+				"name" : "sounds/sfx/Bowcaster/Crossbow_Bowcaster_Fire_02",
+				"volume" : 2.5
+			},
+			{
+				"name" : "sounds/sfx/Bowcaster/Crossbow_Bowcaster_Fire_03",
+				"volume" : 2.5
+			}
+		]
+	},
+	"fourj:entity.landspeeder_fly_end" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/LandSpeeder/LandSpeeder_Engine_Stop2"
+		]
+	},
+	"fourj:entity.landspeeder_fly_loop" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/LandSpeeder/LandSpeeder_Engine_Loop2"
+		]
+	},
+	"fourj:entity.landspeeder_fly_takeoff" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/LandSpeeder/LandSpeeder_Engine_Start2"
+		]
+	},
+	"fourj:entity.speeder.fly_end" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Engine_Stop"
+		]
+	},
+	"fourj:entity.speeder.fly_loop" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Engine_Loop"
+		]
+	},
+	"fourj:entity.speeder.fly_takeoff" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Engine_Start"
+		]
+	},
+	"fourj:entity.tiefighter_fly_end" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter_Advanced/TieFighter_Adanced_Engine_Stop"
+		]
+	},
+	"fourj:entity.tiefighter_fly_loop" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter_Advanced/TieFighter_Adanced_Engine_Loop_03"
+		]
+	},
+	"fourj:entity.tiefighter_fly_takeoff" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter_Advanced/TieFighter_Adanced_Engine_Start"
+		]
+	},
+	"fourj:entity.xwing_fly_end" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Tests/Xwing_Engine_Stop"
+		]
+	},
+	"fourj:entity.xwing_fly_loop" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Tests/Xwing_Flight_Loop"
+		]
+	},
+	"fourj:entity.xwing_fly_takeoff" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Tests/Xwing_Engine_Start_03"
+		]
+	},
+	"fourj:world.deathstar_turbolaser" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_01",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_02",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_03",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_04",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_05"
+		]
+	},
+	"fourj:world.door.rancor_open" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Rancor_Open"
+		]
+	},
+	"fourj:world.door_cloudcity" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_CloudCity_02"
+		]
+	},
+	"fourj:world.door_deathstar" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Deathstar_02"
+		]
+	},
+	"fourj:world.door_jabba_entrance" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Jabba_Entrance"
+		]
+	},
+	"fourj:world.door_jabba_pit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Jabba_Pit_Door"
+		]
+	},
+	"fourj:world.door_tatooine" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Generic_Open"
+		]
+	},
+	"fourj:world.door_vader_close" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Vader_Close_01"
+		]
+	},
+	"fourj:world.door_vader_open" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Vader_Open_01"
+		]
+	},
+	"fourj:world.falcon.fail" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Millennium  Falcon/Falcon_HDrive_Fail"
+		]
+	},
+	"fourj:world.falcon.jump_in" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Millennium  Falcon/Falcon_HDrive_Jump_In"
+		]
+	},
+	"fourj:world.falcon.jump_out" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Millennium  Falcon/Falcon_HDrive_Jump_Out"
+		]
+	},
+	"fourj:world.falcon.prep" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Millennium  Falcon/Falcon_HDrive_Prep"
+		]
+	},
+	"fourj:world.impshuttle.jump_in" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Imperial_Shuttle/ImpShuttle_Hyperdrive_Jump_In_02"
+		]
+	},
+	"fourj:world.impshuttle.jump_out" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Imperial_Shuttle/ImpShuttle_Hyperdrive_Jump_Out_02"
+		]
+	},
+	"fourj:world.krayyt_dragon" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Krayyt Dragon/Krayyt_Dragon_Emitter"
+		]
+	},
+	"fourj:world.lightsaber_dark_swing" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_01",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_02",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_03",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_04",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_05",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_06",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Dark/Dark_Saber_Swing_07",
+				"volume" : 0.5
+			}
+		]
+	},
+	"fourj:world.lightsaber_green_swing" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Lightsaber/Green/Green_Saber_Swing_01",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Green/Green_Saber_Swing_02",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Green/Green_Saber_Swing_03",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Green/Green_Saber_Swing_04",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Green/Green_Saber_Swing_05",
+				"volume" : 0.65
+			}
+		]
+	},
+	"fourj:world.lightsaber_red_swing" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_01",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_02",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_03",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_04",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_05",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_06",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_07",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_08",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_09",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_10",
+				"volume" : 0.65
+			},
+			{
+				"name" : "sounds/sfx/Lightsaber/Red/Red_Saber_Swing_11",
+				"volume" : 0.65
+			}
+		]
+	},
+	"fourj:world.lightsaber_swing" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_01",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_02",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_03",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_04",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_05",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_06",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_07",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_08",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_09",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_10",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_11",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_12",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_13",
+			"sounds/sfx/Lightsaber/Luke_Saber_Swing_14"
+		]
+	},
+	"fourj:world.razorcrest.jump_in" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/RazorCrest/RazorCrest_HDrive_Jump_In"
+		]
+	},
+	"fourj:world.razorcrest.jump_out" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/RazorCrest/RazorCrest_HDrive_Jump_Out"
+		]
+	},
+	"fourj:world.tiefighter_fire" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_1",
+			"sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_2",
+			"sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_3",
+			"sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_4"
+		]
+	},
+	"fourj:world.tractorbeam.off" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TractorBeam/TractorBeam_TurnOff"
+		]
+	},
+	"fourj:world.turbolift" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/TurboLift_Generic"
+		]
+	},
+	"fourj:world.turbolift_deathstar" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/TurboLift_Generic"
+		]
+	},
+	"fourj:world.turbolift_endor" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/TurboLift_Generic"
+		]
+	},
+	"fourj:world.xwing.cockpit_close" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Tests/Xwing_Engine_Start"
+		]
+	},
+	"fourj:world.xwing.fail" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Xwing_Hyperdrive_Fail"
+		]
+	},
+	"fourj:world.xwing.jump_in" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Xwing_Hyperdrive_JumpIn_02"
+		]
+	},
+	"fourj:world.xwing.jump_out" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Xwing_Hyperdrive_JumpOut_02"
+		]
+	},
+	"fourj:world.xwing_fire" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Xwing/Xwing_Fire_1"
+		]
+	},
+	"fourj:world.xwingcrash_dagobah" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"fourjui.random.click" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/random/R2D2_UI_1",
+				"volume" : 0.35
+			},
+			{
+				"name" : "sounds/random/R2D2_UI_2",
+				"volume" : 0.35
+			},
+			{
+				"name" : "sounds/random/R2D2_UI_3",
+				"volume" : 0.35
+			},
+			{
+				"name" : "sounds/random/R2D2_UI_4",
+				"volume" : 0.35
+			},
+			{
+				"name" : "sounds/random/R2D2_UI_5",
+				"volume" : 0.35
+			},
+			{
+				"name" : "sounds/random/R2D2_UI_6",
+				"volume" : 0.35
+			}
+		]
+	},
+	"game.player.attack.nodamage" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/mob/player/attack/weak1",
+				"volume" : 0.1
+			},
+			{
+				"load_on_low_memory" : true,
+				"name" : "sounds/mob/player/attack/weak2",
+				"volume" : 0.1
+			},
+			{
+				"name" : "sounds/mob/player/attack/weak3",
+				"volume" : 0.1
+			},
+			{
+				"name" : "sounds/mob/player/attack/weak4",
+				"volume" : 0.1
+			}
+		]
+	},
+	"mob.fourj:child.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_01",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_02",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_03",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_04",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_05",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_06",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_07",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_08",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_09",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_10",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_11",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_12",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_13",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_14",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_15",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_16",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_17",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_18",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_19"
+		]
+	},
+	"mob.fourj:child.eat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TheChild/Feed/Fourj_child_Feed_01",
+			"sounds/sfx/TheChild/Feed/Fourj_child_Feed_02",
+			"sounds/sfx/TheChild/Feed/Fourj_child_Feed_03",
+			"sounds/sfx/TheChild/Ambient/Fourj_child_Ambient_04",
+			"sounds/sfx/TheChild/Feed/Fourj_child_Feed_05",
+			"sounds/sfx/TheChild/Feed/Fourj_child_Feed_06",
+			"sounds/sfx/TheChild/Feed/Fourj_child_Feed_07"
+		]
+	},
+	"mob.fourj:gnk.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GNK/Ambient/Fourj_gnk_Ambient_03"
+		]
+	},
+	"mob.fourj:gnk.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GNK/Death/Fourj_gnk_Death_01"
+		]
+	},
+	"mob.fourj:gnk.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GNK/Hurt/Fourj_gnk_Hurt_01",
+			"sounds/sfx/GNK/Hurt/Fourj_gnk_Hurt_02",
+			"sounds/sfx/GNK/Hurt/Fourj_gnk_Hurt_03",
+			"sounds/sfx/GNK/Hurt/Fourj_gnk_Hurt_04"
+		]
+	},
+	"mob.fourj:gnk.step" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GNK/Ambient/Fourj_gnk_Ambient_01",
+			"sounds/sfx/GNK/Ambient/Fourj_gnk_Ambient_02"
+		]
+	},
+	"mob.fourj:jabba.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_01",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_02",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_03",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_04",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_05",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_06",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_07",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_08"
+		]
+	},
+	"mob.fourj:jabba.die" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_03",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_01",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_02",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_04",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_05",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_06",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_07",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_08"
+		]
+	},
+	"mob.fourj:jabba.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_01",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_02",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_03",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_04",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_05",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_06",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_07",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_08"
+		]
+	},
+	"mob.fourj:jawa.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_01",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_02",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_03",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_04",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_05",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_06",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_07",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_08",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_09",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_10",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_11",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_12"
+		]
+	},
+	"mob.fourj:jawa_offworld.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_01",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_02",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_03",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_04",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_05",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_06",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_07",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_08",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_09",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_10",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_11",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_12"
+		]
+	},
+	"mob.fourj:landspeeder.step" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.fourj:r2.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_01",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_02",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_03",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_04",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_05",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_06",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_07",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_08",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_09",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_10",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_11",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_12",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_13",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_14",
+			"sounds/sfx/R2D2/Ambient/R2D2_Ambient_15"
+		]
+	},
+	"mob.fourj:r2.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/R2D2/Death/R2D2_Death_01",
+			"sounds/sfx/R2D2/Death/R2D2_Death_02",
+			"sounds/sfx/R2D2/Death/R2D2_Death_03",
+			"sounds/sfx/R2D2/Death/R2D2_Death_04",
+			"sounds/sfx/R2D2/Death/R2D2_Death_05"
+		]
+	},
+	"mob.fourj:r2.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_01",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_02",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_03",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_04",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_05",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_06",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_07",
+			"sounds/sfx/R2D2/Hurt/R2D2_Hurt_08"
+		]
+	},
+	"mob.fourj:tie_advance.step" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.fourj:xwing.step" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.horse.angry" : 
+	{
+		"sounds" : []
+	},
+	"mob.horse.breathe" : 
+	{
+		"sounds" : []
+	},
+	"mob.horse.donkey.angry" : 
+	{
+		"sounds" : []
+	},
+	"mob.horse.gallop" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Speeder/Speeder_Engine_Loop",
+				"volume" : 0.5
+			}
+		]
+	},
+	"mob.horse.hit" : 
+	{
+		"sounds" : []
+	},
+	"mob.horse.idle" : 
+	{
+		"sounds" : []
+	},
+	"mob.horse.jump" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1",
+			"sounds/sfx/Speeder/Speeder_Gear_2",
+			"sounds/sfx/Speeder/Speeder_Gear_3"
+		]
+	},
+	"mob.horse.land" : 
+	{
+		"sounds" : []
+	},
+	"mob.horse.step" : 
+	{
+		"category" : "ui",
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Speeder/Speeder_Engine_Loop",
+				"volume" : 0.5
+			}
+		]
+	},
+	"mob.llama.angry" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TaunTaun/Angry/Llama_Tauntaun_Angry_1"
+		]
+	},
+	"mob.llama.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TaunTaun/Death/Llama_TaunTaun_Death_1",
+			"sounds/sfx/TaunTaun/Death/Llama_TaunTaun_Death_2",
+			"sounds/sfx/TaunTaun/Death/Llama_TaunTaun_Death_3",
+			"sounds/sfx/TaunTaun/Death/Llama_TaunTaun_Death_4"
+		]
+	},
+	"mob.llama.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TaunTaun/Hurt/Llama_TaunTaun_Hurt_1",
+			"sounds/sfx/TaunTaun/Hurt/Llama_TaunTaun_Hurt_2",
+			"sounds/sfx/TaunTaun/Hurt/Llama_TaunTaun_Hurt_3",
+			"sounds/sfx/TaunTaun/Hurt/Llama_TaunTaun_Hurt_4",
+			"sounds/sfx/TaunTaun/Hurt/Llama_TaunTaun_Hurt_5"
+		]
+	},
+	"mob.llama.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_1",
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_2",
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_3",
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_4",
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_5",
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_6",
+			"sounds/sfx/TaunTaun/Ambient/Llama_TaunTaun_Ambient_7"
+		]
+	},
+	"mob.minecraft:bat.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Mynock/Bat_Mynock_Ambient_01",
+			"sounds/sfx/Mynock/Bat_Mynock_Ambient_02",
+			"sounds/sfx/Mynock/Bat_Mynock_Ambient_03",
+			"sounds/sfx/Mynock/Bat_Mynock_Ambient_04"
+		]
+	},
+	"mob.minecraft:blaze.breathe" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Emperor/Blaze_Emperor_Ambient_01",
+				"volume" : 2.5
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Blaze_Emperor_Ambient_02",
+				"volume" : 2.5
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Blaze_Emperor_Ambient_03",
+				"volume" : 2.5
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Blaze_Emperor_Ambient_04",
+				"volume" : 2.5
+			}
+		]
+	},
+	"mob.minecraft:blaze.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:blaze.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:blaze.shoot" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Emperor/Lightning/Blaze_Emperor_Shoot_01",
+				"volume" : 2.0
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Lightning/Blaze_Emperor_Shoot_02",
+				"volume" : 2.0
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Lightning/Blaze_Emperor_Shoot_03",
+				"volume" : 2.0
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Lightning/Blaze_Emperor_Shoot_04",
+				"volume" : 2.0
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Lightning/Blaze_Emperor_Shoot_05",
+				"volume" : 2.0
+			},
+			{
+				"name" : "sounds/sfx/Emperor/Lightning/Blaze_Emperor_Shoot_06",
+				"volume" : 2.0
+			}
+		]
+	},
+	"mob.minecraft:cat.straymeow" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_01",
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_02",
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_03",
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_04",
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_05",
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_06",
+			"sounds/sfx/LothCat/Cat_LothCat_Ambient_07"
+		]
+	},
+	"mob.minecraft:cave_spider.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_01",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_02",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_03",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_04",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_05",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_06",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_07",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_08",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_09",
+			"sounds/sfx/AssassinDroid/Ambient/CaveSpider_AssassinDroid_Ambient_10"
+		]
+	},
+	"mob.minecraft:cave_spider.step" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/AssassinDroid/Footsteps/CaveSpider_AssassinDroid_Step_01",
+			"sounds/sfx/AssassinDroid/Footsteps/CaveSpider_AssassinDroid_Step_02",
+			"sounds/sfx/AssassinDroid/Footsteps/CaveSpider_AssassinDroid_Step_03",
+			"sounds/sfx/AssassinDroid/Footsteps/CaveSpider_AssassinDroid_Step_04"
+		]
+	},
+	"mob.minecraft:chicken.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/R5D4/Death/Chicken_R5D4_Death_01",
+			"sounds/sfx/R5D4/Death/Chicken_R5D4_Death_02",
+			"sounds/sfx/R5D4/Death/Chicken_R5D4_Death_03",
+			"sounds/sfx/R5D4/Death/Chicken_R5D4_Death_04"
+		]
+	},
+	"mob.minecraft:chicken.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/R5D4/Hurt/Chicken_R5D4_Hurt_01",
+			"sounds/sfx/R5D4/Hurt/Chicken_R5D4_Hurt_02",
+			"sounds/sfx/R5D4/Hurt/Chicken_R5D4_Hurt_03",
+			"sounds/sfx/R5D4/Hurt/Chicken_R5D4_Hurt_04",
+			"sounds/sfx/R5D4/Hurt/Chicken_R5D4_Hurt_05",
+			"sounds/sfx/R5D4/Hurt/Chicken_R5D4_Hurt_06"
+		]
+	},
+	"mob.minecraft:chicken.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_01",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_02",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_03",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_04",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_05",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_06",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_07",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_08",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_09",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_10",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_11",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_12",
+			"sounds/sfx/R5D4/Ambient/Chicken_R5D4_Ambient_13"
+		]
+	},
+	"mob.minecraft:cow.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Bantha/Cow_Bantha_Ambient_01",
+			"sounds/sfx/Bantha/Cow_Bantha_Ambient_02",
+			"sounds/sfx/Bantha/Cow_Bantha_Ambient_03",
+			"sounds/sfx/Bantha/Cow_Bantha_Ambient_04"
+		]
+	},
+	"mob.minecraft:creeper.death" : 
+	{
+		"category" : "hostile",
+		"sounds" : 
+		[
+			"sounds/sfx/R5-J2/Death/Creeper_R5J2_Death_01",
+			"sounds/sfx/R5-J2/Death/Creeper_R5J2_Death_02",
+			"sounds/sfx/R5-J2/Death/Creeper_R5J2_Death_03"
+		]
+	},
+	"mob.minecraft:creeper.say" : 
+	{
+		"category" : "hostile",
+		"sounds" : 
+		[
+			"sounds/sfx/R5-J2/Hurt/Creeper_R5J2_Hurt_01",
+			"sounds/sfx/R5-J2/Hurt/Creeper_R5J2_Hurt_02",
+			"sounds/sfx/R5-J2/Hurt/Creeper_R5J2_Hurt_03",
+			"sounds/sfx/R5-J2/Hurt/Creeper_R5J2_Hurt_04",
+			"sounds/sfx/R5-J2/Ambient/Creeper_R5J2_Ambient_01",
+			"sounds/sfx/R5-J2/Ambient/Creeper_R5J2_Ambient_02",
+			"sounds/sfx/R5-J2/Ambient/Creeper_R5J2_Ambient_03",
+			"sounds/sfx/R5-J2/Ambient/Creeper_R5J2_Ambient_04"
+		]
+	},
+	"mob.minecraft:dolphin.attack" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:dolphin.blowhole" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:dolphin.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dragonsnake/Death/Dolphin_DragonSnake_Death_01",
+			"sounds/sfx/Dragonsnake/Death/Dolphin_DragonSnake_Death_02",
+			"sounds/sfx/Dragonsnake/Death/Dolphin_DragonSnake_Death_03"
+		]
+	},
+	"mob.minecraft:dolphin.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dragonsnake/Hurt/Dolphin_DragonSnake_Hurt_01",
+			"sounds/sfx/Dragonsnake/Hurt/Dolphin_DragonSnake_Hurt_02",
+			"sounds/sfx/Dragonsnake/Hurt/Dolphin_DragonSnake_Hurt_03"
+		]
+	},
+	"mob.minecraft:dolphin.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dragonsnake/Ambient/Dolphin_DragonSnake_Ambient_01",
+			"sounds/sfx/Dragonsnake/Ambient/Dolphin_DragonSnake_Ambient_02",
+			"sounds/sfx/Dragonsnake/Ambient/Dolphin_DragonSnake_Ambient_03"
+		]
+	},
+	"mob.minecraft:dolphin.idle_water" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dragonsnake/Ambient/Dolphin_DragonSnake_Ambient_01",
+			"sounds/sfx/Dragonsnake/Ambient/Dolphin_DragonSnake_Ambient_02",
+			"sounds/sfx/Dragonsnake/Ambient/Dolphin_DragonSnake_Ambient_03"
+		]
+	},
+	"mob.minecraft:donkey.angry" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:donkey.breathe" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:donkey.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:donkey.eat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:donkey.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:donkey.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:donkey.jump" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1",
+			"sounds/sfx/Speeder/Speeder_Gear_2",
+			"sounds/sfx/Speeder/Speeder_Gear_3"
+		]
+	},
+	"mob.minecraft:donkey.land" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:enderman.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:enderman.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:enderman.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_01",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_02",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_03",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_04",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_05",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_06",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_07",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_08",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_09",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_10",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_11",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_12"
+		]
+	},
+	"mob.minecraft:enderman.stare" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:enderman.teleport" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_01",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_02",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_03",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_04",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_05",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_06",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_07",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_08",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_09",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_10",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_11",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_12"
+		]
+	},
+	"mob.minecraft:endermen.scream" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_01",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_02",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_03",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_04",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_05",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_06",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_07",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_08",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_09",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_10",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_11",
+			"sounds/sfx/K2SO/Enderman_K2S0_Ambient_12"
+		]
+	},
+	"mob.minecraft:endermite.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Mouse_Droid/Hurt/Endermite_MDroid_Hurt_1",
+			"sounds/sfx/Mouse_Droid/Hurt/Endermite_MDroid_Hurt_2",
+			"sounds/sfx/Mouse_Droid/Hurt/Endermite_MDroid_Hurt_3"
+		]
+	},
+	"mob.minecraft:endermite.kill" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Mouse_Droid/Death/Endermite_MDroid_Death_1",
+			"sounds/sfx/Mouse_Droid/Death/Endermite_MDroid_Death_2",
+			"sounds/sfx/Mouse_Droid/Death/Endermite_MDroid_Death_3",
+			"sounds/sfx/Mouse_Droid/Death/Endermite_MDroid_Death_4"
+		]
+	},
+	"mob.minecraft:endermite.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Mouse_Droid/Ambient/Endermite_MDroid_Ambient_1",
+			"sounds/sfx/Mouse_Droid/Ambient/Endermite_MDroid_Ambient_2",
+			"sounds/sfx/Mouse_Droid/Ambient/Endermite_MDroid_Ambient_3",
+			"sounds/sfx/Mouse_Droid/Ambient/Endermite_MDroid_Ambient_4",
+			"sounds/sfx/Mouse_Droid/Ambient/Endermite_MDroid_Ambient_5"
+		]
+	},
+	"mob.minecraft:evocation_fang.attack" : 
+	{
+		"sounds" : 
+		[
+			"sounds/random/explode1",
+			"sounds/random/explode2",
+			"sounds/random/explode3",
+			"sounds/random/explode4"
+		]
+	},
+	"mob.minecraft:evocation_illager.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/DeathTrooper/Ambient/DeathTrooper_Ambient_001",
+			"sounds/sfx/DeathTrooper/Ambient/DeathTrooper_Ambient_002",
+			"sounds/sfx/DeathTrooper/Ambient/DeathTrooper_Ambient_003"
+		]
+	},
+	"mob.minecraft:evocation_illager.celebrate" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:evocation_illager.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_01",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_02",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_03",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_04",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_05",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_06",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_07",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_08",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_09",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_10",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_11",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_12",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_13",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_14",
+			"sounds/sfx/DeathTrooper/Death/DeathTrooper_Death_15"
+		]
+	},
+	"mob.minecraft:evocation_illager.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_01",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_02",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_03",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_04",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_05",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_06",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_07",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_08",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_09",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_10",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_11",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_12",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_13",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_14",
+			"sounds/sfx/DeathTrooper/Hurt/DeathTrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:evocation_illager.prepare_wololo" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:ghast.affectionate_scream" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter(Ghast)/Ambients/Ghast_TieFight_Ambient_01",
+			"sounds/sfx/TieFighter(Ghast)/Ambients/Ghast_TieFight_Ambient_02",
+			"sounds/sfx/TieFighter(Ghast)/Ambients/Ghast_TieFight_Ambient_03"
+		]
+	},
+	"mob.minecraft:ghast.charge" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:ghast.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter(Ghast)/Death/Ghast_TieFight_Death_01"
+		]
+	},
+	"mob.minecraft:ghast.fireball" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_1",
+				"volume" : 30
+			},
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_2",
+				"volume" : 30
+			},
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_3",
+				"volume" : 30
+			},
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_4",
+				"volume" : 30
+			}
+		]
+	},
+	"mob.minecraft:ghast.moan" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter(Ghast)/Ambients/Ghast_TieFight_Ambient_01",
+			"sounds/sfx/TieFighter(Ghast)/Ambients/Ghast_TieFight_Ambient_02",
+			"sounds/sfx/TieFighter(Ghast)/Ambients/Ghast_TieFight_Ambient_03"
+		]
+	},
+	"mob.minecraft:ghast.scream" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:ghast.shoot" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_1",
+				"volume" : 75
+			},
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_2",
+				"volume" : 75
+			},
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_3",
+				"volume" : 75
+			},
+			{
+				"name" : "sounds/sfx/TieFighter(Ghast)/Shoot/Ghast_TieFighter_Shoot_4",
+				"volume" : 75
+			}
+		]
+	},
+	"mob.minecraft:hoglin.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_01",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_02",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_03",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_04",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_05",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_06",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_07",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_08",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_09",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_10",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_11",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_12",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_13",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_14",
+			"sounds/sfx/Mudhorn/Ambients/Hoglin_Mudhorn_Ambient_15"
+		]
+	},
+	"mob.minecraft:hoglin.step" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Mudhorn/Step/Hoglin_Mudhorn_Step_01",
+			"sounds/sfx/Mudhorn/Step/Hoglin_Mudhorn_Step_02",
+			"sounds/sfx/Mudhorn/Step/Hoglin_Mudhorn_Step_03",
+			"sounds/sfx/Mudhorn/Step/Hoglin_Mudhorn_Step_04",
+			"sounds/sfx/Mudhorn/Step/Hoglin_Mudhorn_Step_05"
+		]
+	},
+	"mob.minecraft:horse.angry" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:horse.breathe" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:horse.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:horse.eat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:horse.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:horse.jump" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/sfx/Speeder/Speeder_Gear_1",
+				"volume" : 3.5090000629
+			},
+			"sounds/sfx/Speeder/Speeder_Gear_2",
+			"sounds/sfx/Speeder/Speeder_Gear_3"
+		]
+	},
+	"mob.minecraft:husk.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_01",
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_02",
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_03",
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_04",
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_05",
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_06",
+			"sounds/sfx/TuskenRaider/Husk_TuskenRaiders_Ambient_07"
+		]
+	},
+	"mob.minecraft:husk.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TuskenRaider/Death/Husk_TuskenRaiders_Death_01",
+			"sounds/sfx/TuskenRaider/Death/Husk_TuskenRaiders_Death_02"
+		]
+	},
+	"mob.minecraft:husk.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TuskenRaider/Hurt/Husk_TuskenRaiders_Hurt_01",
+			"sounds/sfx/TuskenRaider/Hurt/Husk_TuskenRaiders_Hurt_02",
+			"sounds/sfx/TuskenRaider/Hurt/Husk_TuskenRaiders_Hurt_03"
+		]
+	},
+	"mob.minecraft:magma_cube.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Demolition_Mech/Ambient/MagmaCube_DemolitionMech_Ambient_01",
+			"sounds/sfx/Demolition_Mech/Ambient/MagmaCube_DemolitionMech_Ambient_02",
+			"sounds/sfx/Demolition_Mech/Ambient/MagmaCube_DemolitionMech_Ambient_03",
+			"sounds/sfx/Demolition_Mech/Ambient/MagmaCube_DemolitionMech_Ambient_04",
+			"sounds/sfx/Demolition_Mech/Ambient/MagmaCube_DemolitionMech_Ambient_05",
+			"sounds/sfx/Demolition_Mech/Ambient/MagmaCube_DemolitionMech_Ambient_06"
+		]
+	},
+	"mob.minecraft:magma_cube.big" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Demolition_Mech/Jump/MagmaCube_DemolitionMech_Jump"
+		]
+	},
+	"mob.minecraft:magma_cube.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Demolition_Mech/Death/MagmaCube_DemolitionMech_Death_01",
+			"sounds/sfx/Demolition_Mech/Death/MagmaCube_DemolitionMech_Death_02",
+			"sounds/sfx/Demolition_Mech/Death/MagmaCube_DemolitionMech_Death_03",
+			"sounds/sfx/Demolition_Mech/Death/MagmaCube_DemolitionMech_Death_04"
+		]
+	},
+	"mob.minecraft:magma_cube.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Demolition_Mech/Hurt/MagmaCube_DemolitionMech_Hurt_01",
+			"sounds/sfx/Demolition_Mech/Hurt/MagmaCube_DemolitionMech_Hurt_02",
+			"sounds/sfx/Demolition_Mech/Hurt/MagmaCube_DemolitionMech_Hurt_03",
+			"sounds/sfx/Demolition_Mech/Hurt/MagmaCube_DemolitionMech_Hurt_04",
+			"sounds/sfx/Demolition_Mech/Hurt/MagmaCube_DemolitionMech_Hurt_05"
+		]
+	},
+	"mob.minecraft:magma_cube.small" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Demolition_Mech/Jump/MagmaCube_DemolitionMech_Jump"
+		]
+	},
+	"mob.minecraft:mule.breathe" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:mule.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:mule.eat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:mule.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:mule.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:mule.jump" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1",
+			"sounds/sfx/Speeder/Speeder_Gear_2",
+			"sounds/sfx/Speeder/Speeder_Gear_3"
+		]
+	},
+	"mob.minecraft:mule.land" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:mule.mad" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:panda.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_01",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_02",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_03",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_04",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_05",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_06",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_07",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_08",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_09",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_10",
+			"sounds/sfx/Ewok/Panda_Ewok_Ambient_11"
+		]
+	},
+	"mob.minecraft:phantom.bite" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Tie_Reaper/Swoop/Phantom_TieReaper_swoop_01"
+		]
+	},
+	"mob.minecraft:phantom.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:phantom.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:phantom.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Tie_Reaper/Ambient/Phantom_TieReaper_Ambient_01",
+			"sounds/sfx/Tie_Reaper/Ambient/Phantom_TieReaper_Ambient_02",
+			"sounds/sfx/Tie_Reaper/Ambient/Phantom_TieReaper_Ambient_03",
+			"sounds/sfx/Tie_Reaper/Ambient/Phantom_TieReaper_Ambient_04"
+		]
+	},
+	"mob.minecraft:phantom.swoop" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Tie_Reaper/Swoop/Phantom_TieReaper_swoop_01"
+		]
+	},
+	"mob.minecraft:pig.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_01",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_02",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_03",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_04",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_05"
+		]
+	},
+	"mob.minecraft:piglin.admiring_item" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:piglin.angry" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin.attack" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin.celebrate" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin.converted_to_zombified" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:piglin.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:piglin.jealous" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin.retreat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin_brute.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:piglin_brute.angry" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin_brute.converted_to_zombified" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:piglin_brute.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:piglin_brute.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:pillager.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:pillager.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:pillager.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:polar_bear.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Wampa/PolarBear_Wampa_Ambient_01",
+			"sounds/sfx/Wampa/PolarBear_Wampa_Ambient_02"
+		]
+	},
+	"mob.minecraft:pufferfish.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_01",
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_02",
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_03",
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_04",
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_05",
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_06",
+			"sounds/sfx/PufferPig/PufferFish_PufferPig_Ambient_07"
+		]
+	},
+	"mob.minecraft:pufferfish.flop" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:ravager.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_01",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_02",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_03",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_04",
+			"sounds/sfx/Dewback/Pig&Saddle_Dewback_05"
+		]
+	},
+	"mob.minecraft:sheep.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/mob/sheep/say1",
+			"sounds/mob/sheep/say2",
+			"sounds/mob/sheep/say3"
+		]
+	},
+	"mob.minecraft:shulker.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:shulker.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:shulker.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:shulker.shoot" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_01",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_02",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_03",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_04",
+			"sounds/sfx/DeathStar_Turbolasers/DeathStar_Turbolaser_Fire_05"
+		]
+	},
+	"mob.minecraft:skeleton.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Security_Droid/Death/Skeleton_SecurityDroid_Death_1",
+			"sounds/sfx/Security_Droid/Death/Skeleton_SecurityDroid_Death_2"
+		]
+	},
+	"mob.minecraft:skeleton.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Security_Droid/Hurt/Skeleton_SecurityDroid_hurt_01",
+			"sounds/sfx/Security_Droid/Hurt/Skeleton_SecurityDroid_hurt_02",
+			"sounds/sfx/Security_Droid/Hurt/Skeleton_SecurityDroid_hurt_03",
+			"sounds/sfx/Security_Droid/Hurt/Skeleton_SecurityDroid_hurt_04"
+		]
+	},
+	"mob.minecraft:skeleton.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton.step" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Security_Droid/Step/Skeleton_SecurityDroid_Step_01",
+			"sounds/sfx/Security_Droid/Step/Skeleton_SecurityDroid_Step_02",
+			"sounds/sfx/Security_Droid/Step/Skeleton_SecurityDroid_Step_03",
+			"sounds/sfx/Security_Droid/Step/Skeleton_SecurityDroid_Step_04"
+		]
+	},
+	"mob.minecraft:skeleton_horse.breathe" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1"
+		]
+	},
+	"mob.minecraft:skeleton_horse.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton_horse.drink" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton_horse.eat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton_horse.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton_horse.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton_horse.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:skeleton_horse.jump" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1",
+			"sounds/sfx/Speeder/Speeder_Gear_2",
+			"sounds/sfx/Speeder/Speeder_Gear_3"
+		]
+	},
+	"mob.minecraft:snow_golem.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_01",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_02",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_03",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_04",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_05",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_06",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_07",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_08",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_09",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_10",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_11",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_12",
+			"sounds/sfx/Probe_Droid/Stray_ProbeDroid_Ambient_13"
+		]
+	},
+	"mob.minecraft:snow_golem.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:snow_golem.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:spider.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/KryKna/Death/Spider_Krykna_Death_01",
+			"sounds/sfx/KryKna/Death/Spider_Krykna_Death_02",
+			"sounds/sfx/KryKna/Death/Spider_Krykna_Death_03"
+		]
+	},
+	"mob.minecraft:spider.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/KryKna/Hurt/Spider_Krykna_Hurt_01",
+			"sounds/sfx/KryKna/Hurt/Spider_Krykna_Hurt_02",
+			"sounds/sfx/KryKna/Hurt/Spider_Krykna_Hurt_03",
+			"sounds/sfx/KryKna/Hurt/Spider_Krykna_Hurt_04",
+			"sounds/sfx/KryKna/Hurt/Spider_Krykna_Hurt_05",
+			"sounds/sfx/KryKna/Hurt/Spider_Krykna_Hurt_06"
+		]
+	},
+	"mob.minecraft:spider.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/KryKna/Ambient/Spider_Krykna_Ambient_01",
+			"sounds/sfx/KryKna/Ambient/Spider_Krykna_Ambient_02",
+			"sounds/sfx/KryKna/Ambient/Spider_Krykna_Ambient_03",
+			"sounds/sfx/KryKna/Ambient/Spider_Krykna_Ambient_04",
+			"sounds/sfx/KryKna/Ambient/Spider_Krykna_Ambient_05",
+			"sounds/sfx/KryKna/Ambient/Spider_Krykna_Ambient_06"
+		]
+	},
+	"mob.minecraft:squid.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dianoga/Ambient/Squid_Dianoga_Ambient_01",
+			"sounds/sfx/Dianoga/Ambient/Squid_Dianoga_Ambient_02",
+			"sounds/sfx/Dianoga/Ambient/Squid_Dianoga_Ambient_03",
+			"sounds/sfx/Dianoga/Swim/Squid_Dianoga_Swim_01",
+			"sounds/sfx/Dianoga/Swim/Squid_Dianoga_Swim_02",
+			"sounds/sfx/Dianoga/Swim/Squid_Dianoga_Swim_03",
+			"sounds/sfx/Dianoga/Swim/Squid_Dianoga_Swim_04"
+		]
+	},
+	"mob.minecraft:squid.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Dianoga/Death/Squid_Dianoga_Death_01",
+			"sounds/sfx/Dianoga/Death/Squid_Dianoga_Death_02"
+		]
+	},
+	"mob.minecraft:stray.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:stray.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:stray.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:strider.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_02",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_03",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_04",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_05",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_06",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_07",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_08",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_09",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_10",
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_11"
+		]
+	},
+	"mob.minecraft:strider.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_08"
+		]
+	},
+	"mob.minecraft:strider.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Blurrg/Strider_Blurrg_Ambient_05"
+		]
+	},
+	"mob.minecraft:strider.step" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_01",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_02",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_03",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_04",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_05",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_06",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_07",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_08",
+			"sounds/sfx/Blurrg/Step/Strider_Blurrg_Step_09"
+		]
+	},
+	"mob.minecraft:turtle.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_01",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_02",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_03",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_04",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_05",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_06",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_07",
+			"sounds/sfx/Jabba/Ambient/Turtle_Jabba_Ambient_08"
+		]
+	},
+	"mob.minecraft:turtle.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_01",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_02",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_03",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_04",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_05",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_06",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_07",
+			"sounds/sfx/Jabba/Death/Turtle_Jabba_Death_08"
+		]
+	},
+	"mob.minecraft:turtle.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_01",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_02",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_03",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_04",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_05",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_06",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_07",
+			"sounds/sfx/Jabba/Hurt/Turtle_Jabba_Hurt_08"
+		]
+	},
+	"mob.minecraft:vex.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Interrogator_Droid/Vex_InterrogatorDroid_Ambient_01",
+			"sounds/sfx/Interrogator_Droid/Vex_InterrogatorDroid_Ambient_02",
+			"sounds/sfx/Interrogator_Droid/Vex_InterrogatorDroid_Ambient_03",
+			"sounds/sfx/Interrogator_Droid/Vex_InterrogatorDroid_Ambient_04",
+			"sounds/sfx/Interrogator_Droid/Vex_InterrogatorDroid_Ambient_05",
+			"sounds/sfx/Interrogator_Droid/Vex_InterrogatorDroid_Ambient_06"
+		]
+	},
+	"mob.minecraft:vindicator.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GamoreanGuard/Death/Vindicator_GamoreanGuard_Death_01",
+			"sounds/sfx/GamoreanGuard/Death/Vindicator_GamoreanGuard_Death_02",
+			"sounds/sfx/GamoreanGuard/Death/Vindicator_GamoreanGuard_Death_03",
+			"sounds/sfx/GamoreanGuard/Death/Vindicator_GamoreanGuard_Death_04",
+			"sounds/sfx/GamoreanGuard/Death/Vindicator_GamoreanGuard_Death_05"
+		]
+	},
+	"mob.minecraft:vindicator.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GamoreanGuard/Hurt/Vindicator_GamoreanGuard_Hurt_01",
+			"sounds/sfx/GamoreanGuard/Hurt/Vindicator_GamoreanGuard_Hurt_02",
+			"sounds/sfx/GamoreanGuard/Hurt/Vindicator_GamoreanGuard_Hurt_03",
+			"sounds/sfx/GamoreanGuard/Hurt/Vindicator_GamoreanGuard_Hurt_04",
+			"sounds/sfx/GamoreanGuard/Hurt/Vindicator_GamoreanGuard_Hurt_05",
+			"sounds/sfx/GamoreanGuard/Hurt/Vindicator_GamoreanGuard_Hurt_06"
+		]
+	},
+	"mob.minecraft:vindicator.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/GamoreanGuard/Ambient/Vindicator_GamoreanGuard_Ambient_01",
+			"sounds/sfx/GamoreanGuard/Ambient/Vindicator_GamoreanGuard_Ambient_02",
+			"sounds/sfx/GamoreanGuard/Ambient/Vindicator_GamoreanGuard_Ambient_03",
+			"sounds/sfx/GamoreanGuard/Ambient/Vindicator_GamoreanGuard_Ambient_04"
+		]
+	},
+	"mob.minecraft:wandering_trader.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_01",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_02",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_03",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_04",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_05",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_06",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_07",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_08",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_09",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_10",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_11",
+			"sounds/sfx/Jawa/WanderingTrader_Jawa_Ambient_12"
+		]
+	},
+	"mob.minecraft:wither.shoot" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/TieFighter_Advanced/Wither_TieFighterAdvance_Fire_01"
+		]
+	},
+	"mob.minecraft:wither_skeleton.ambient" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:wither_skeleton.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:wither_skeleton.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:wither_skeleton.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:wither_skeleton.step" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:wolf.bark" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Corellian Hound/Ambient/Wolf_CorellianHound_Ambient_01",
+			"sounds/sfx/Corellian Hound/Ambient/Wolf_CorellianHound_Ambient_02",
+			"sounds/sfx/Corellian Hound/Ambient/Wolf_CorellianHound_Ambient_03",
+			"sounds/sfx/Corellian Hound/Ambient/Wolf_CorellianHound_Ambient_04"
+		]
+	},
+	"mob.minecraft:wolf.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Corellian Hound/Death/Wolf_CorellianHound_Death_01",
+			"sounds/sfx/Corellian Hound/Death/Wolf_CorellianHound_Death_02",
+			"sounds/sfx/Corellian Hound/Death/Wolf_CorellianHound_Death_03"
+		]
+	},
+	"mob.minecraft:wolf.growl" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Corellian Hound/Growl/Wolf_CorellianHound_Growl_01",
+			"sounds/sfx/Corellian Hound/Growl/Wolf_CorellianHound_Growl_02"
+		]
+	},
+	"mob.minecraft:wolf.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Corellian Hound/Hurt/Wolf_CorellianHound_Hurt_01",
+			"sounds/sfx/Corellian Hound/Hurt/Wolf_CorellianHound_Hurt_02",
+			"sounds/sfx/Corellian Hound/Hurt/Wolf_CorellianHound_Hurt_03",
+			"sounds/sfx/Corellian Hound/Hurt/Wolf_CorellianHound_Hurt_04"
+		]
+	},
+	"mob.minecraft:wolf.panting" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:wolf.shake" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:wolf.whine" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:zombie.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:zombie.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:zombie_horse.breathe" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1"
+		]
+	},
+	"mob.minecraft:zombie_horse.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie_horse.drink" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie_horse.eat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie_horse.hit" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie_horse.idle" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie_horse.jump" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Speeder/Speeder_Gear_1",
+			"sounds/sfx/Speeder/Speeder_Gear_2",
+			"sounds/sfx/Speeder/Speeder_Gear_3"
+		]
+	},
+	"mob.minecraft:zombie_pigman.zpig" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_01",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_02",
+			"sounds/sfx/Stormtrooper/Ambient/Stormtrooper_Ambient_03"
+		]
+	},
+	"mob.minecraft:zombie_pigman.zpigangry" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.minecraft:zombie_pigman.zpigdeath" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:zombie_pigman.zpighurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:zombie_villager.death" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_01",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_02",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_03",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_04",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_05",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_06",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_07",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_08",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_09",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_10",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_11",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_12",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_13",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_14",
+			"sounds/sfx/Stormtrooper/Death/Stormtrooper_Death_15"
+		]
+	},
+	"mob.minecraft:zombie_villager.hurt" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_01",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_02",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_03",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_04",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_05",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_06",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_07",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_08",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_09",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_10",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_11",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_12",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_13",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_14",
+			"sounds/sfx/Stormtrooper/Hurt/Stormtrooper_Hurt_15"
+		]
+	},
+	"mob.minecraft:zombie_villager.say" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.piglin.converted_to_zombified" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"mob.piglin_brute.converted_to_zombified" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Silence_2secs"
+		]
+	},
+	"music.game" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep5_1(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep5_4(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep6_4(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep6_5(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Garel_1 (-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Garel_2 (-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_HC_GameMusic(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Hoth_1(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Jakkua(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Lothal_1(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Lothal_2(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Mand_1(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_MIR_HC(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Nabool_1(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Nabool_2(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Takodana_1(-5dB)",
+				"volume" : 0.75
+			}
+		]
+	},
+	"music.game.creative" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep5_1(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep5_4(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep6_4(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Ep6_5(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Garel_1 (-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Garel_2 (-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_HC_GameMusic(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Hoth_1(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Jakkua(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Lothal_1(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Lothal_2(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Mand_1(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_MIR_HC(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Nabool_1(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Nabool_2(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/2_Overworld/SWMU_Ov_Takodana_1(-5dB)",
+				"volume" : 0.75
+			}
+		]
+	},
+	"music.game.credits" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/music/Music_Selection_2/6_Credits/SWMU_Cr_Ep5_3(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/6_Credits/SWMU_Ov_Ep6_1(-5dB)",
+				"volume" : 0.75
+			}
+		]
+	},
+	"music.game.end" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/music/Music_Selection_2/4_The End/SWMU_Ne_En_Hoth_1(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/4_The End/SWMU_Ne_En_Hoth_2(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/4_The End/SWMU_Ne_En_Mus_Fue(-5dB)",
+				"volume" : 0.5
+			}
+		]
+	},
+	"music.game.endboss" : 
+	{
+		"sounds" : 
+		[
+			"sounds/music/Music_Selection_2/5_End Boss/SWMU_En_Bo_Mand_2"
+		]
+	},
+	"music.game.nether" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Cloud_City(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Death_Star(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Ep4_2(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Ep5_2(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Ep6_2(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Hanger(-5dB)",
+				"volume" : 0.5
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/3_Nether/SWMU_Ne_Mus_Menu(-5dB)",
+				"volume" : 0.5
+			}
+		]
+	},
+	"music.menu" : 
+	{
+		"sounds" : 
+		[
+			{
+				"name" : "sounds/music/Music_Selection_2/1_Main Menu/SWMU_Ov_Ep6_3(-5dB)",
+				"volume" : 0.75
+			},
+			{
+				"name" : "sounds/music/Music_Selection_2/1_Main Menu/SWMU_Ov-Mn_Ep4_1(-5dB)",
+				"volume" : 0.75
+			}
+		]
+	},
+	"random.door_close" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Generic_Close_02"
+		]
+	},
+	"random.door_open" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Doors/Door_Generic_Open"
+		]
+	},
+	"record.11" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R1-G4/DroidChip_R1G4_01",
+			"sounds/sfx/Music_Discs/R1-G4/DroidChip_R1G4_02",
+			"sounds/sfx/Music_Discs/R1-G4/DroidChip_R1G4_03",
+			"sounds/sfx/Music_Discs/R1-G4/DroidChip_R1G4_04",
+			"sounds/sfx/Music_Discs/R1-G4/DroidChip_R1G4_05"
+		]
+	},
+	"record.13" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/Interrogator/Vex_InterrogatorDroid_Ambient_01",
+			"sounds/sfx/Music_Discs/Interrogator/Vex_InterrogatorDroid_Ambient_02",
+			"sounds/sfx/Music_Discs/Interrogator/Vex_InterrogatorDroid_Ambient_03",
+			"sounds/sfx/Music_Discs/Interrogator/Vex_InterrogatorDroid_Ambient_04",
+			"sounds/sfx/Music_Discs/Interrogator/Vex_InterrogatorDroid_Ambient_05"
+		]
+	},
+	"record.blocks" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/Probe_Droid/Stray_ProbeDroid_Ambient_02",
+			"sounds/sfx/Music_Discs/Probe_Droid/Stray_ProbeDroid_Ambient_03",
+			"sounds/sfx/Music_Discs/Probe_Droid/Stray_ProbeDroid_Ambient_04",
+			"sounds/sfx/Music_Discs/Probe_Droid/Stray_ProbeDroid_Ambient_07",
+			"sounds/sfx/Music_Discs/Probe_Droid/Stray_ProbeDroid_Ambient_10"
+		]
+	},
+	"record.cat" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R4D6/SoundChip6_R4_1",
+			"sounds/sfx/Music_Discs/R4D6/SoundChip6_R4_2",
+			"sounds/sfx/Music_Discs/R4D6/SoundChip6_R4_3",
+			"sounds/sfx/Music_Discs/R4D6/SoundChip6_R4_4",
+			"sounds/sfx/Music_Discs/R4D6/SoundChip6_R4_5"
+		]
+	},
+	"record.chirp" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R2D2/SoundChip1_R2D2_1",
+			"sounds/sfx/Music_Discs/R2D2/SoundChip1_R2D2_2",
+			"sounds/sfx/Music_Discs/R2D2/SoundChip1_R2D2_3",
+			"sounds/sfx/Music_Discs/R2D2/SoundChip1_R2D2_4",
+			"sounds/sfx/Music_Discs/R2D2/SoundChip1_R2D2_5",
+			"sounds/sfx/Music_Discs/R2D2/SoundChip1_R2D2_6"
+		]
+	},
+	"record.far" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R5J2/DroidChip_R5J2_01",
+			"sounds/sfx/Music_Discs/R5J2/DroidChip_R5J2_02",
+			"sounds/sfx/Music_Discs/R5J2/DroidChip_R5J2_03",
+			"sounds/sfx/Music_Discs/R5J2/DroidChip_R5J2_04",
+			"sounds/sfx/Music_Discs/R5J2/DroidChip_R5J2_05"
+		]
+	},
+	"record.mall" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R5D4/SoundChip5_R5D4_1",
+			"sounds/sfx/Music_Discs/R5D4/SoundChip5_R5D4_2",
+			"sounds/sfx/Music_Discs/R5D4/SoundChip5_R5D4_3",
+			"sounds/sfx/Music_Discs/R5D4/SoundChip5_R5D4_4",
+			"sounds/sfx/Music_Discs/R5D4/SoundChip5_R5D4_5"
+		]
+	},
+	"record.mellohi" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R2 - A5/SoundChip3_R2_1",
+			"sounds/sfx/Music_Discs/R2 - A5/SoundChip3_R2_2",
+			"sounds/sfx/Music_Discs/R2 - A5/SoundChip3_R2_3",
+			"sounds/sfx/Music_Discs/R2 - A5/SoundChip3_R2_4",
+			"sounds/sfx/Music_Discs/R2 - A5/SoundChip3_R2_5"
+		]
+	},
+	"record.pigstep" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/Mouse Droid/Endermite_MDroid_Ambient_1",
+			"sounds/sfx/Music_Discs/Mouse Droid/Endermite_MDroid_Ambient_3",
+			"sounds/sfx/Music_Discs/Mouse Droid/Endermite_MDroid_Ambient_5",
+			"sounds/sfx/Music_Discs/Mouse Droid/Endermite_MDroid_Death_4",
+			"sounds/sfx/Music_Discs/Mouse Droid/Endermite_MDroid_Hurt_3"
+		]
+	},
+	"record.stal" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/M5BC/SoundChip7_M5BC_1",
+			"sounds/sfx/Music_Discs/M5BC/SoundChip7_M5BC_2",
+			"sounds/sfx/Music_Discs/M5BC/SoundChip7_M5BC_3",
+			"sounds/sfx/Music_Discs/M5BC/SoundChip7_M5BC_4",
+			"sounds/sfx/Music_Discs/M5BC/SoundChip7_M5BC_5"
+		]
+	},
+	"record.strad" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/GNK/Fourj_gnk_Ambient_01",
+			"sounds/sfx/Music_Discs/GNK/Fourj_gnk_Ambient_02",
+			"sounds/sfx/Music_Discs/GNK/Fourj_gnk_Ambient_03"
+		]
+	},
+	"record.wait" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R3-S1/DroidChip_R3S1_01",
+			"sounds/sfx/Music_Discs/R3-S1/DroidChip_R3S1_02",
+			"sounds/sfx/Music_Discs/R3-S1/DroidChip_R3S1_03",
+			"sounds/sfx/Music_Discs/R3-S1/DroidChip_R3S1_04",
+			"sounds/sfx/Music_Discs/R3-S1/DroidChip_R3S1_05"
+		]
+	},
+	"record.ward" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/U9C4/SoundChip4_U9C4_1",
+			"sounds/sfx/Music_Discs/U9C4/SoundChip4_U9C4_2",
+			"sounds/sfx/Music_Discs/U9C4/SoundChip4_U9C4_3",
+			"sounds/sfx/Music_Discs/U9C4/SoundChip4_U9C4_4",
+			"sounds/sfx/Music_Discs/U9C4/SoundChip4_U9C4_5"
+		]
+	},
+	"record.otherside" : 
+	{
+		"sounds" : 
+		[
+			"sounds/sfx/Music_Discs/R3-A3/DroidChip_R3A3_01",
+			"sounds/sfx/Music_Discs/R3-A3/DroidChip_R3A3_02",
+			"sounds/sfx/Music_Discs/R3-A3/DroidChip_R3A3_03",
+			"sounds/sfx/Music_Discs/R3-A3/DroidChip_R3A3_04",
+			"sounds/sfx/Music_Discs/R3-A3/DroidChip_R3A3_05"
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+  "texture_data": {
+    "grass_side": {
+      "textures": [
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#888e6b"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#6e6d41"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#a2856f"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#6e8155"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#916f6e"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#636a4a"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#707e4b"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#75805a"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#7b8c50"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#616028"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#6a6931"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#8c9160"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#90814d"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#5e6447"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#81883c"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#7a703d"
+        }
+      ]
+    },
+    "lectern_bottom": {
+      "textures": "textures/blocks/lectern_base"
+    },
+    "cartography_table_bottom": {
+      "textures": "textures/blocks/quartz_block_chiseled"
+    },
+    "crafting_table_bottom": {
+      "textures": "textures/blocks/netherrack"
+    },
+    "bookshelf_top": {
+      "textures": "textures/blocks/quartz_block_chiseled"
+    }
+    }
+}

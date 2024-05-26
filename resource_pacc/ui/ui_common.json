@@ -1,0 +1,40 @@
+{
+
+
+  "back_button_content/chevron_panel/left_chevron": 
+  {
+    "color": [0, 0.2, 0.5],
+    "$text_color": [0, 0.2, 0.5]
+  },
+
+  "back_title_button_content/chevron_panel/left_chevron": 
+  {
+    "color": [0, 0.2, 0.5],
+    "$text_color": [0, 0.2, 0.5]
+  },
+
+  "button": {
+    "sound_name": "fourjui.random.click"
+  },
+
+  "toggle@common.toggle_visuals": {
+    "sound_name": "fourjui.random.click"
+  },
+
+  "close_button": {
+    "sound_name": "fourjui.random.click"
+  },
+
+  "inventory_selected_icon_button": {
+    "sound_name": "fourjui.random.click"
+  },
+
+  "inventory_take_progress_icon_button": {
+    "sound_name": "fourjui.random.click"
+  },
+
+  "fourj_dialog_background_hollow_3@dialog_background_hollow_common": {
+    "texture": "textures/ui/fourj_dialog_background_hollow_3"
+  }
+
+}

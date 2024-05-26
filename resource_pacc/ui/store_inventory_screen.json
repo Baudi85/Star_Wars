@@ -1,0 +1,5 @@
+{
+  "section_toggle_base@common_toggles.light_image_toggle_collection": {
+    "$default_text_color": "$light_button_default_text_color"
+  }
+}

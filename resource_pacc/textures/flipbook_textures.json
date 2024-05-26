@@ -1,0 +1,131 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/water_still_grey",
+    "atlas_tile": "still_water_grey",
+    "blend_frames": true,
+    "ticks_per_frame": 6
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_flow_grey",
+    "atlas_tile": "flowing_water_grey",
+    "blend_frames": true,
+    "replicate": 2,
+	  "ticks_per_frame": 4
+  },
+  {
+    "flipbook_texture": "textures/blocks/cauldron_water",
+    "atlas_tile": "cauldron_water",
+    "ticks_per_frame": 4
+  },
+  {
+    "flipbook_texture": "textures/blocks/lava_still",
+    "atlas_tile": "lava_still",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/lava_flow",
+    "atlas_tile": "lava_flow",
+    "blend_frames": true,
+    "ticks_per_frame": 0.5
+  },
+  {
+    "flipbook_texture": "textures/blocks/fire_0",
+    "atlas_tile": "fire_0",
+    "ticks_per_frame": 2,
+    "blend_frames": true,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/fire_1",
+    "atlas_tile": "fire_1",
+    "ticks_per_frame": 2,
+    "blend_frames": true,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/soul_fire_0",
+    "atlas_tile": "soul_fire_0",
+    "ticks_per_frame": 2,
+    "blend_frames": true,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/soul_fire_1",
+    "atlas_tile": "soul_fire_1",
+    "ticks_per_frame": 2,
+    "blend_frames": true,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/magma",
+    "atlas_tile": "magma",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/prismarine_rough",
+    "atlas_tile": "prismarine",
+    "ticks_per_frame": 12,
+    "frames": [ 0, 1, 2, 3 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/kelp_a",
+    "atlas_tile": "kelp_a",
+    "ticks_per_frame": 3,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/kelp_b",
+    "atlas_tile": "kelp_b",
+    "ticks_per_frame": 3,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/kelp_c",
+    "atlas_tile": "kelp_c",
+    "ticks_per_frame": 3,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/kelp_d",
+    "atlas_tile": "kelp_d",
+    "ticks_per_frame": 3,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/kelp_top",
+    "atlas_tile": "kelp_top",
+    "ticks_per_frame": 3,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/kelp_top_bulb",
+    "atlas_tile": "kelp_top_bulb",
+    "ticks_per_frame": 3,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/seagrass",
+    "atlas_tile": "seagrass_short",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7],
+    "ticks_per_frame": 3,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/sculk_sensor_tendril_active",
+    "atlas_tile": "sculk_sensor_tendril_active",
+    "ticks_per_frame": 2,
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 12, 12, 12, 5, 6, 7, 8, 9, 10, 11, 12, 12, 12, 12, 13, 14, 15 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/sculk_sensor_tendril_inactive",
+    "atlas_tile": "sculk_sensor_tendril_inactive",
+    "ticks_per_frame": 3
+  }
+]

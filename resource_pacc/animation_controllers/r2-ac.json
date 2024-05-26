@@ -1,0 +1,54 @@
+{
+	"animation_controllers": {
+		"controller.animation.fourj.r2.look_at_target": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": ["look_at_target"	]
+				}
+			}
+		},
+		"controller.animation.fourj.r2.Move": {
+			"states": {
+				"default": {
+					"blend_transition" : 1.0,
+					"animations": [		"idle"		],
+					"transitions": [
+						{
+							"moving": "query.is_moving == 1"
+						}
+					]
+				},
+				"moving": {
+					"blend_transition" : 1.0,
+					"animations": ["Move"	],
+					"transitions": [
+						{
+							"default": "query.is_moving == 0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.fourj.r2.idle": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shake": "query.variant == 1.0"
+						}
+					]
+				},
+				"shake": {
+					"animations": ["shake"	],
+					"transitions": [
+						{
+							"default": "query.variant == 0.0"
+						}
+					]
+				}
+			}
+		}
+	},
+	"format_version" : "1.10.0"
+}

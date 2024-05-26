@@ -1,0 +1,31 @@
+{
+	"animation_controllers" : 
+	{
+		"controller.animation.fourj.jawa.Move" : 
+		{
+			"states" : 
+			{
+				"default" : 
+				{
+					"animations" : 
+					[
+						{
+							"Move" : 
+							[
+								{
+									"0.0" : 0.0,
+									"1.0" : 1.0
+								}
+							]
+						}
+					],
+					"parameters" : 
+					[
+						"query.is_moving"
+					]
+				}
+			}
+		}
+	},
+	"format_version" : "1.8.0"
+}

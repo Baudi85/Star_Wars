@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fourj.landspeeder.move": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": [0, 0, 0]
+				},
+				"seat": {
+					"rotation": [0, 0, 0]
+				},
+				"SteeringWheel": {
+					"rotation": [0, 0, 0]
+				},
+				"Wheel": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.fourj.landspeeder.turn_left": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": [0, 0, 5]
+				},
+				"Wheel": {
+					"rotation": [0, 0, 20]
+				},
+				"seat": {
+					"rotation": [0, 0, 0]
+				},
+				"SteeringWheel": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.fourj.landspeeder.turn_right": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": [0, 0, -5]
+				},
+				"Wheel": {
+					"rotation": [0, 0, -20]
+				},
+				"seat": {
+					"rotation": [0, 0, 0]
+				},
+				"SteeringWheel": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

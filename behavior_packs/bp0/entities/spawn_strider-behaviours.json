@@ -1,0 +1,58 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:entity" : 
+	{
+		"component_groups" : 
+		{
+			"fourj:transform_into_custom" : 
+			{
+				"minecraft:transformation" : 
+				{
+					"into" : "minecraft:strider<spawn_adult>"
+				}
+			}
+		},
+		"components" : 
+		{
+			"minecraft:collision_box": {
+			  "width": 0.9,
+			  "height": 1.7
+			},
+			"minecraft:timer" : 
+			{
+				"looping" : false,
+				"time" : 0,
+				"time_down_event" : 
+				{
+					"event" : "fourj:transform_into_custom"
+				}
+			}
+		},
+		"description" : 
+		{
+			"identifier" : "fourj:spawn_strider",
+			"is_experimental" : false,
+			"is_spawnable" : false,
+			"is_summonable" : false,
+			"spawn_egg" : false
+		},
+		"events" : 
+		{
+			"fourj:transform_into_custom" : 
+			{
+				"sequence" : 
+				[
+					{
+						"add" : 
+						{
+							"component_groups" : 
+							[
+								"fourj:transform_into_custom"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

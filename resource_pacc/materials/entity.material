@@ -1,0 +1,62 @@
+{
+
+    "entity_emissive_color:entity": {
+      "+defines": [ 
+		  		"USE_EMISSIVE",
+	          "USE_COLOR_MASK"
+			  ]
+    },
+	    "entity_emissive_alpha_color:entity_nocull": {
+      "+defines": [
+		  		"USE_EMISSIVE",
+			    "ALPHA_TEST",
+	          "USE_COLOR_MASK"
+			  ]
+    },
+  "horse_hair:entity_multitexture_alpha_test": {},
+  "blaze_body:entity_emissive_alpha": {},
+   "cat:entity_alphatest_change_color": {},
+  "creeper:entity_alphatest": {},
+  "pig:entity_alphatest": {},
+  "polar_bear:entity_alphatest": {},
+  "phantom:entity_emissive_alpha": {},
+  "skeleton_stray:entity_alphatest": {},
+  "rabbit:entity_alphatest": {},
+  "dolphin:entity_alphatest": {},
+  "drowned:entity_emissive_alpha": {},
+  "ender_dragon:entity_emissive_alpha": {},
+  "ender_dragon_head:entity_emissive_alpha": {},
+  "enderman:entity_emissive_alpha": {},
+  "fox:entity_alphatest": {},
+  "parrot:entity_alphatest": {},
+  "ghast:entity_alphatest": {},
+  "ghast_shooting:entity_emissive_alpha": {},
+  "sheep:entity_alphatest_change_color": {},
+  "strider:entity_alphatest": {},
+  "silverfish:entity_alphatest": {},
+  "snow_golem:entity_alphatest": {},
+  "snow_golem_pumpkin:entity_alphatest": {},
+  "squid:entity_alphatest": {},
+  "glow_squid:entity_emissive_alpha": {},
+  "husk:entity_alphatest": {},
+  "pufferfish:entity_alphatest": {},
+  "horse_hair:entity_multitexture_alpha_test": {},
+  "hoglin:entity_alphatest": {},
+  "chicken:entity_alphatest": {},
+  "magma_cube:entity_emissive_alpha": {},
+  "panda:entity_alphatest": {},
+  "mooshroom:entity_alphatest": {},
+  "iron_golem:entity_alphatest": {},
+  "cow:entity_alphatest": {},
+  "rabbit:entity_alphatest": {},
+  "zombie:entity_alphatest": {},
+  "pillager:entity_alphatest": {},
+  "turtle:entity_alphatest": {},
+  "bat:entity_alphatest": {},
+  "vex:entity_alphatest": {},
+  "llama:entity_multitexture_alpha_test": {},
+  "wolf:entity_alphatest_change_color": {},
+  "witherBoss:entity_multitexture_alpha_test": {},
+  "chest:entity_alphatest": {},
+  "sign:entity_alphatest": {}
+}

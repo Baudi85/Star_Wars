@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fourj.tie_advanced.move": {
+			"loop": true
+		},
+		"animation.fourj.tie_advanced.turn_left": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [5, -5, 15]
+				}
+			}
+		},
+		"animation.fourj.tie_advanced.turn_right": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [5, 5, -15]
+				}
+			}
+		}
+	}
+}

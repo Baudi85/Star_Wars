@@ -1,0 +1,113 @@
+{
+	"animation_controllers": {
+		"controller.animation.fourj.child.default": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"child_move": [
+								{
+									"0.0": 0.0,
+									"1.0": 1.0
+								}
+							]
+						}
+					],
+					"parameters": [
+						"query.modified_move_speed"
+					]
+				}
+			}
+		},
+		"controller.animation.fourj.child.sitting": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"child_idle": []
+						}
+					],
+					"transitions": [
+						{
+							"closing": "query.is_sitting"
+						}
+					]
+				},
+				"closing": {
+					"animations": [
+						{
+							"child_closing": []
+						}
+					],
+					"transitions": [
+						{
+							"closed": "query.all_animations_finished"
+						}
+					]
+				},
+				"closed": {
+					"animations": [
+						{
+							"child_closed": []
+						}
+					],
+					"transitions": [
+						{
+							"opening": "!query.is_sitting"
+						}
+					]
+				},
+				"opening": {
+					"animations": [
+						{
+							"child_opening": []
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.fourj.child.taming": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"child_closed": []
+						}
+					],
+					"transitions": [
+						{
+							"opening": "query.is_tamed"
+						}
+					]
+				},
+				"opening": {
+					"animations": [
+						{
+							"child_opening": []
+						}
+					],
+					"transitions": [
+						{
+							"open": "query.all_animations_finished"
+						}
+					]
+				},
+				"open": {
+					"animations": [
+						{
+							"child_idle": []
+						}
+					]
+				}
+			}
+		}
+	},
+	"format_version" : "1.8.0"
+}

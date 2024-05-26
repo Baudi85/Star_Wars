@@ -1,0 +1,43 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : 
+	{
+		"description" : 
+		{
+			"animation_controllers" : 
+			[
+				{
+					"default" : "controller.animation.fourj.lava_boat.default"
+				}
+			],
+			"animations" : 
+			{
+				"setup" : "animation.fourj.lava_boat.setup",
+				"idle" : "animation.fourj.lava_boat.idle",
+				"move" : "animation.fourj.lava_boat.move"
+			},
+			"geometry" : 
+			{
+				"default" : "geometry.fourj.lava_boat"
+			},
+			"identifier" : "fourj:lava_boat",
+			"materials" : 
+			{
+				"default" : "entity"
+			},
+			"render_controllers" : 
+			[
+				"controller.render.fourj:lava_boat"
+			],
+			"spawn_egg" : 
+			{
+				"base_color" : "#6b5b5b",
+				"overlay_color" : "#352929"
+			},
+			"textures" : 
+			{
+				"default" : "textures/entity/lava_boat"
+			}
+		}
+	}
+}

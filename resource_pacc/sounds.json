@@ -1,0 +1,1848 @@
+{
+	"entity_sounds" : 
+	{
+		"entities" : 
+		{
+			"bat" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							1.0,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:bat.ambient"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"blaze" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:blaze.breathe"
+					},
+					"death" : "mob.minecraft:blaze.death",
+					"hurt" : "mob.minecraft:blaze.hit",
+					"shoot" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:blaze.shoot",
+						"volume" : 7.0
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"cat" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:cat.straymeow"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"cave_spider" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:cave_spider.say"
+					},
+					"step" : 
+					{
+						"pitch" : 
+						[
+							1.0,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:cave_spider.step"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"chicken" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:chicken.say"
+					},
+					"death" : "mob.minecraft:chicken.death",
+					"hurt" : "mob.minecraft:chicken.hurt"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"cow" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:cow.say"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"creeper" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:creeper.ambient",
+					"death" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:creeper.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:creeper.say"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"dolphin" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:dolphin.idle"
+					},
+					"ambient.in.water" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:dolphin.idle_water"
+					},
+					"attack" : "mob.minecraft:dolphin.attack",
+					"breathe" : "mob.minecraft:dolphin.blowhole",
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:dolphin.death"
+					},
+					"death.in.water" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:dolphin.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:dolphin.hurt"
+					},
+					"hurt.in.water" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:dolphin.hurt"
+					},
+					"jump" : 
+					{
+						"sound" : "mob.minecraft:dolphin.jump"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"donkey" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:donkey.idle",
+					"breathe" : 
+					{
+						"sound" : "mob.minecraft:donkey.breathe"
+					},
+					"death" : "mob.minecraft:donkey.death",
+					"eat" : 
+					{
+						"sound" : "mob.minecraft:donkey.eat"
+					},
+					"hurt" : "mob.minecraft:donkey.hit",
+					"jump" : 
+					{
+						"sound" : "mob.minecraft:donkey.jump"
+					},
+					"land" : 
+					{
+						"sound" : "mob.minecraft:donkey.land"
+					},
+					"mad" : "mob.minecraft:donkey.angry"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"elder_guardian" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.5,
+							0.6000000238
+						],
+						"sound" : "mob.guardian.land_idle"
+					},
+					"death" : 
+					{
+						"pitch" : 0.5,
+						"sound" : "mob.elderguardian.death"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"enderman" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:enderman.idle"
+					},
+					"scream" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:endermen.scream"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"endermite" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:endermite.say",
+					"death" : "mob.minecraft:endermite.kill",
+					"hurt" : "mob.minecraft:endermite.hit"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"evocation_fang" : 
+			{
+				"events" : 
+				{
+					"fang" : "mob.minecraft:evocation_fang.attack"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"evocation_illager" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:evocation_illager.ambient",
+					"ambient.in.raid" : 
+					{
+						"sound" : "mob.minecraft:evocation_illager.ambient"
+					},
+					"celebrate" : "mob.minecraft:evocation_illager.celebrate",
+					"death" : "mob.minecraft:evocation_illager.death",
+					"hurt" : "mob.minecraft:evocation_illager.hurt",
+					"prepare.wololo" : "mob.minecraft:evocation_illager.prepare_wololo"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:child" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:child.ambient"
+					},
+					"eat" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:child.eat",
+						"volume" : 
+						[
+							0.8999999762,
+							1.0
+						]
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:gnk" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.fourj:gnk.ambient"
+					},
+					"death" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:gnk.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.fourj:gnk.hurt"
+					},
+					"step" : 
+					{
+						"pitch" : 
+						[
+							0.95,
+							1.05
+						],
+						"sound" : "mob.fourj:gnk.step",
+						"volume" : 3.0
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:jabba" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:jabba.ambient"
+					},
+					"death" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:jabba.die"
+					},
+					"hurt" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:jabba.hurt"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:jawa" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.fourj:jawa.ambient"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:jawa_offworld" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.fourj:jawa_offworld.ambient"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:landspeeder" : 
+			{
+				"events" : 
+				{
+					"step" : "mob.fourj:landspeeder.step"
+				},
+				"pitch" : 
+				[
+					1,
+					1
+				],
+				"volume" : 1.0
+			},
+			"fourj:r2" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.fourj:r2.ambient",
+					"death" : "mob.fourj:r2.death",
+					"hurt" : "mob.fourj:r2.hurt"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"fourj:tie_advanced" : 
+			{
+				"events" : 
+				{
+					"step" : "mob.fourj:tie_advanced.step"
+				},
+				"pitch" : 
+				[
+					1,
+					1
+				],
+				"volume" : 1.0
+			},
+			"fourj:xwing" : 
+			{
+				"events" : 
+				{
+					"step" : "mob.fourj:xwing.step"
+				},
+				"pitch" : 
+				[
+					1,
+					1
+				],
+				"volume" : 1.0
+			},
+			"fox" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:fox.ambient"
+				},
+				"pitch" : 
+				[
+					0.95,
+					1.05
+				],
+				"volume" : 1.0
+			},
+			"ghast" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:ghast.moan",
+						"volume" : 1.0
+					},
+					"death" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:ghast.death",
+						"volume" : 1.0
+					},
+					"hurt" : 
+					{
+						"sound" : "mob.minecraft:ghast.scream",
+						"volume" : 1.0
+					},
+					"scream" : 
+					{
+						"sound" : "mob.minecraft:ghast.affectionate_scream",
+						"volume" : 1.0
+					},
+					"shoot" : 
+					{
+						"sound" : "mob.minecraft:ghast.fireball",
+						"volume" : 1.0
+					},
+					"splash" : 
+					{
+						"volume" : 1.0
+					},
+					"swim" : 
+					{
+						"volume" : 1.0
+					},
+					"warn" : 
+					{
+						"sound" : "mob.minecraft:ghast.charge",
+						"volume" : 1.0
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"guardian" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.5,
+							0.6000000238
+						],
+						"sound" : "mob.minecraft:guardian.land_idle"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"hoglin" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:hoglin.ambient",
+					"angry" : "mob.hoglin.angry",
+					"attack" : "mob.hoglin.attack",
+					"death" : "mob.hoglin.death",
+					"hurt" : "mob.hoglin.hurt",
+					"retreat" : "mob.hoglin.retreat",
+					"step" : "mob.minecraft:hoglin.step"
+				},
+				"pitch" : 
+				[
+					0.95,
+					1.05
+				],
+				"volume" : 1.0
+			},
+			"horse" : 
+			{
+				"events" : 
+				{
+					"death" : "mob.minecraft:horse.death",
+					"gallop" : 
+					{
+						"default" : "mob.minecraft:horse.gallop"
+					},
+					"heavy.step" : 
+					{
+						"default" : "mob.minecraft:horse.gallop"
+					},
+					"jump" : 
+					{
+						"sound" : "mob.minecraft:horse.jump"
+					},
+					"step" : 
+					{
+						"default" : "mob.minecraft:horse.gallop",
+						"wood" : "mob.minecraft:horse.gallop"
+					}
+				},
+				"pitch" : 
+				[
+					1,
+					1
+				],
+				"volume" : 1.0
+			},
+			"husk" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:husk.ambient"
+					},
+					"death" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:husk.death"
+					},
+					"hurt" : "mob.minecraft:husk.hurt"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"iron_golem" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:iron_golem.say"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"llama" : 
+			{
+				"events" : 
+				{
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.llama.death"
+					},
+					"hurt" : 
+					{
+						"sound" : "mob.llama.hurt",
+						"volume" : 
+						[
+							0.8999999762,
+							1.0
+						]
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"magma_cube" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:magma_cube.ambient",
+					"death" : "mob.minecraft:magma_cube.death",
+					"hurt" : "mob.minecraft:magma_cube.hurt",
+					"squish.big" : 
+					{
+						"pitch" : 
+						[
+							0.6999999881,
+							0.8000000119
+						],
+						"sound" : "mob.minecraft:magma_cube.big",
+						"volume" : 0.5
+					},
+					"squish.small" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:magma_cube.small",
+						"volume" : 0.5
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"mule" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:mule.idle",
+					"breathe" : 
+					{
+						"sound" : "mob.minecraft:mule.breathe"
+					},
+					"death" : "mob.minecraft:mule.death",
+					"eat" : 
+					{
+						"sound" : "mob.minecraft:mule.eat"
+					},
+					"hurt" : "mob.minecraft:mule.hit",
+					"jump" : 
+					{
+						"sound" : "mob.minecraft:mule.jump"
+					},
+					"land" : 
+					{
+						"sound" : "mob.minecraft:mule.land"
+					},
+					"mad" : "mob.minecraft:mule.mad"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"panda" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:panda.idle",
+					"ambient.aggressive" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.panda.idle.aggressive"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"parrot" : 
+			{
+				"events" : 
+				{
+					"imitate.blaze" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.cave_spider" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.creeper" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.drowned" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.elder_guardian" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.ender_dragon" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.enderman" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.endermite" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.evocation_illager" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.ghast" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.husk" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.illusion_illager" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.magma_cube" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.panda" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.polar_bear" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.shulker" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.silverfish" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.skeleton" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.slime" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.spider" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.stray" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.vex" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.vindication_illager" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.witch" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.wither" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.wither_skeleton" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.wolf" : 
+					{
+						"sound" : "mmob.parrot.idle"
+					},
+					"imitate.zombie" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.zombie_pigman" : 
+					{
+						"sound" : "mob.parrot.idle"
+					},
+					"imitate.zombie_villager" : 
+					{
+						"sound" : "mob.parrot.idle"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"phantom" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:phantom.idle",
+					"attack" : 
+					{
+						"pitch" : 
+						[
+							1.0,
+							1.2000000477
+						],
+						"sound" : "mob.minecraft:phantom.bite"
+					},
+					"death" : "mob.minecraft:phantom.death",
+					"hurt" : "mob.minecraft:phantom.hurt",
+					"swoop" : 
+					{
+						"pitch" : 
+						[
+							1.0,
+							1.0499999523
+						],
+						"sound" : "mob.minecraft:phantom.swoop"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"pig" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:pig.say"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"piglin" : 
+			{
+				"events" : 
+				{
+					"admire" : "mob.minecraft:piglin.admiring_item",
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:piglin.ambient"
+					},
+					"angry" : "mob.minecraft:piglin.angry",
+					"attack" : "mob.minecraft:piglin.attack",
+					"celebrate" : "mob.minecraft:piglin.celebrate",
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:piglin.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:piglin.hurt"
+					},
+					"jealous" : "mob.minecraft:piglin.jealous",
+					"retreat" : "mob.minecraft:piglin.retreat",
+					"step" : 
+					{
+						"sound" : "mob.piglin.step",
+						"volume" : 0.35
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"piglin_brute" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:piglin_brute.ambient"
+					},
+					"angry" : 
+					{
+						"sound" : "mob.minecraft:piglin_brute.angry",
+						"volume" : 0.0
+					},
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:piglin_brute.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:piglin_brute.hurt"
+					},
+					"step" : 
+					{
+						"sound" : "mob.piglin_brute.step",
+						"volume" : 0.35
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"pillager" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:pillager.idle",
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:pillager.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:pillager.hurt"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"polar_bear" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:polar_bear.idle"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"pufferfish" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:pufferfish.ambient"
+					},
+					"flop" : 
+					{
+						"sound" : "mob.minecraft:pufferfish.flop"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"sheep" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							1.8500000238,
+							2.0
+						],
+						"sound" : "mob.minecraft:sheep.say"
+					},
+					"death" : 
+					{
+						"pitch" : 
+						[
+							1.8999999762,
+							2.0
+						],
+						"sound" : "mob.sheep.say"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							1.8999999762,
+							2.0
+						],
+						"sound" : "mob.sheep.say"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"shulker" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:shulker.ambient",
+					"death" : "mob.minecraft:shulker.death",
+					"hurt" : "mob.minecraft:shulker.hurt",
+					"shoot" : "mob.minecraft:shulker.shoot"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"skeleton" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:skeleton.say",
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:skeleton.death",
+						"volume" : 1.1000000238
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:skeleton.hurt",
+						"volume" : 1.2999999523
+					},
+					"step" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.1000000238
+						],
+						"sound" : "mob.minecraft:skeleton.step",
+						"volume" : 1.2999999523
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"skeleton_horse" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:skeleton_horse.idle",
+					"death" : "mob.minecraft:skeleton_horse.death",
+					"eat" : 
+					{
+						"sound" : "mob.minecraft:skeleton_horse.eat"
+					},
+					"gallop" : 
+					{
+						"default" : "mob.horse.gallop",
+						"sound" : "mob.horse.gallop"
+					},
+					"heavy.step" : 
+					{
+						"default" : "mob.horse.gallop",
+						"sound" : "mob.horse.gallop"
+					},
+					"hurt" : "mob.minecraft:skeleton_horse.hit",
+					"jump" : 
+					{
+						"sound" : "mob.minecraft:horse.jump"
+					},
+					"step" : 
+					{
+						"default" : "mob.horse.gallop",
+						"sound" : "mob.horse.gallop",
+						"wood" : "mob.horse.gallop"
+					}
+				},
+				"pitch" : 
+				[
+					1,
+					1
+				],
+				"volume" : 1.0
+			},
+			"snow_golem" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							1.0,
+							1.0099999905
+						],
+						"sound" : "mob.minecraft:snow_golem.ambient"
+					},
+					"death" : "mob.minecraft:snow_golem.death",
+					"hurt" : "mob.minecraft:snow_golem.hurt"
+				},
+				"pitch" : 
+				[
+					0.1,
+					1.01
+				],
+				"volume" : 1.0
+			},
+			"spider" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:spider.say"
+					},
+					"death" : "mob.minecraft:spider.death",
+					"hurt" : "mob.minecraft:spider.hurt"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"squid" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:squid.ambient",
+					"death" : "mob.minecraft:squid.death"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"stray" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:stray.ambient"
+					},
+					"death" : "mob.minecraft:stray.death",
+					"hurt" : "mob.minecraft:stray.hurt"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"strider" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:strider.ambient"
+					},
+					"death" : "mob.minecraft:strider.death",
+					"hurt" : "mob.minecraft:strider.hurt",
+					"sound" : "mob.minecraft:strider.step"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"turtle" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:turtle.ambient"
+					},
+					"death" : "mob.minecraft:turtle.death",
+					"hurt" : "mob.minecraft:turtle.hurt"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"vex" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:vex.ambient"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"vindicator" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:vindicator.idle"
+					},
+					"death" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:vindicator.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:vindicator.hurt"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"wandering_trader" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:wandering_trader.idle"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"wither" : 
+			{
+				"events" : 
+				{
+					"shoot" : 
+					{
+						"sound" : "mob.minecraft:wither.shoot"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"wither_skeleton" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:wither_skeleton.ambient"
+					},
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:wither_skeleton.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:wither_skeleton.hurt"
+					},
+					"step" : 
+					{
+						"sound" : "mob.minecraft:wither_skeleton.step"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"wolf" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 
+						[
+							0.9499999881,
+							1.0499999523
+						],
+						"sound" : "mob.minecraft:wolf.bark"
+					},
+					"death" : "mob.minecraft:wolf.death",
+					"growl" : "mob.minecraft:wolf.growl",
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:wolf.hurt"
+					},
+					"pant" : "mob.minecraft:wolf.panting",
+					"shake" : 
+					{
+						"sound" : "mob.minecraft:wolf.shake"
+					},
+					"whine" : "mob.minecraft:wolf.whine"
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"zombie" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:zombie.say"
+					},
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:zombie.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:zombie.hurt"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"zombie_horse" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:zombie_horse.idle",
+					"gallop" : 
+					{
+						"default" : "mob.horse.gallop",
+						"sound" : "mob.horse.gallop"
+					},
+					"heavy.step" : 
+					{
+						"default" : "mob.horse.gallop",
+						"sound" : "mob.horse.gallop"
+					},
+					"hurt" : "mob.minecraft:zombie_horse.hit",
+					"jump" : 
+					{
+						"sound" : "mob.minecraft:horse.jump"
+					},
+					"step" : 
+					{
+						"default" : "mob.horse.gallop",
+						"sound" : "mob.horse.gallop",
+						"wood" : "mob.horse.gallop"
+					}
+				},
+				"pitch" : 
+				[
+					1,
+					1
+				],
+				"volume" : 1.0
+			},
+			"zombie_pigman" : 
+			{
+				"events" : 
+				{
+					"ambient" : 
+					{
+						"pitch" : 1.0,
+						"sound" : "mob.minecraft:zombie_pigman.zpig"
+					},
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:zombie_pigman.zpigdeath"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:zombie_pigman.zpighurt"
+					},
+					"mad" : 
+					{
+						"sound" : "mob.minecraft:zombie_pigman.zpigangry"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			},
+			"zombie_villager" : 
+			{
+				"events" : 
+				{
+					"ambient" : "mob.minecraft:zombie_villager.say",
+					"death" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:zombie_villager.death"
+					},
+					"hurt" : 
+					{
+						"pitch" : 
+						[
+							0.8999999762,
+							1.0
+						],
+						"sound" : "mob.minecraft:zombie_villager.hurt"
+					}
+				},
+				"pitch" : 
+				[
+					0.8,
+					1.2
+				],
+				"volume" : 1.0
+			}
+		}
+	},
+	"individual_event_sounds" : 
+	{
+		"events" : 
+		{
+			"converted_to_zombified" : 
+			{
+				"sound" : "mob.piglin.converted_to_zombified"
+			}
+		}
+	},
+	"interactive_sounds" : 
+	{
+		"entity_sounds" : 
+		{
+			"entities" : 
+			{
+				"donkey" : 
+				{
+					"events" : 
+					{
+						"heavy.step" : 
+						{
+							"default" : "mob.horse.gallop"
+						},
+						"step" : 
+						{
+							"default" : "mob.horse.gallop",
+							"wood" : "mob.horse.gallop"
+						}
+					},
+					"pitch" : 
+					[
+						1.0,
+						1.0
+					],
+					"volume" : 1.0
+				},
+				"horse" : 
+				{
+					"events" : 
+					{
+						"heavy.step" : 
+						{
+							"default" : "mob.horse.gallop"
+						},
+						"step" : 
+						{
+							"default" : "mob.horse.gallop",
+							"wood" : "mob.horse.gallop"
+						}
+					},
+					"pitch" : 
+					[
+						1.0,
+						1.0
+					],
+					"volume" : 1.0
+				},
+				"mule" : 
+				{
+					"events" : 
+					{
+						"heavy.step" : 
+						{
+							"default" : "mob.horse.gallop"
+						},
+						"step" : 
+						{
+							"default" : "mob.horse.gallop",
+							"wood" : "mob.horse.gallop"
+						}
+					},
+					"pitch" : 
+					[
+						1.0,
+						1.0
+					],
+					"volume" : 1.0
+				},
+				"skeleton_horse" : 
+				{
+					"events" : 
+					{
+						"heavy.step" : 
+						{
+							"default" : "mob.horse.gallop"
+						},
+						"step" : 
+						{
+							"default" : "mob.horse.gallop",
+							"wood" : "mob.horse.gallop"
+						}
+					},
+					"pitch" : 
+					[
+						1.0,
+						1.0
+					],
+					"volume" : 1.0
+				},
+				"zombie_horse" : 
+				{
+					"events" : 
+					{
+						"heavy.step" : 
+						{
+							"default" : "mob.horse.gallop"
+						},
+						"step" : 
+						{
+							"default" : "mob.horse.gallop",
+							"wood" : "mob.horse.gallop"
+						}
+					},
+					"pitch" : 
+					[
+						1.0,
+						1.0
+					],
+					"volume" : 1.0
+				}
+			}
+		}
+	}
+}
